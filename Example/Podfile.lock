@@ -1,30 +1,33 @@
 PODS:
   - ZLNavigationBar (2.0.0)
-  - ZLSuperClass (4.1.1):
+  - ZLSuperClass (4.1.2):
     - ZLNavigationBar
-    - ZLSuperClass/CollectionView (= 4.1.1)
-    - ZLSuperClass/Countdown (= 4.1.1)
-    - ZLSuperClass/Nav (= 4.1.1)
-    - ZLSuperClass/ScrollView (= 4.1.1)
-    - ZLSuperClass/TableView (= 4.1.1)
-    - ZLSuperClass/TextField (= 4.1.1)
-    - ZLSuperClass/TextView (= 4.1.1)
-    - ZLSuperClass/ViewController (= 4.1.1)
-  - ZLSuperClass/CollectionView (4.1.1):
+    - ZLSuperClass/CollectionView (= 4.1.2)
+    - ZLSuperClass/Countdown (= 4.1.2)
+    - ZLSuperClass/LoadImageFromPath (= 4.1.2)
+    - ZLSuperClass/Nav (= 4.1.2)
+    - ZLSuperClass/ScrollView (= 4.1.2)
+    - ZLSuperClass/TableView (= 4.1.2)
+    - ZLSuperClass/TextField (= 4.1.2)
+    - ZLSuperClass/TextView (= 4.1.2)
+    - ZLSuperClass/ViewController (= 4.1.2)
+  - ZLSuperClass/CollectionView (4.1.2):
     - ZLNavigationBar
-  - ZLSuperClass/Countdown (4.1.1):
+  - ZLSuperClass/Countdown (4.1.2):
     - ZLNavigationBar
-  - ZLSuperClass/Nav (4.1.1):
+  - ZLSuperClass/LoadImageFromPath (4.1.2):
     - ZLNavigationBar
-  - ZLSuperClass/ScrollView (4.1.1):
+  - ZLSuperClass/Nav (4.1.2):
     - ZLNavigationBar
-  - ZLSuperClass/TableView (4.1.1):
+  - ZLSuperClass/ScrollView (4.1.2):
     - ZLNavigationBar
-  - ZLSuperClass/TextField (4.1.1):
+  - ZLSuperClass/TableView (4.1.2):
     - ZLNavigationBar
-  - ZLSuperClass/TextView (4.1.1):
+  - ZLSuperClass/TextField (4.1.2):
     - ZLNavigationBar
-  - ZLSuperClass/ViewController (4.1.1):
+  - ZLSuperClass/TextView (4.1.2):
+    - ZLNavigationBar
+  - ZLSuperClass/ViewController (4.1.2):
     - ZLNavigationBar
 
 DEPENDENCIES:
@@ -40,7 +43,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ZLNavigationBar: 1f09e6d307fae748821260f22c9ff444496d7618
-  ZLSuperClass: 1b0ea1797a98fc18a05e60c759f0320df95373b4
+  ZLSuperClass: 5fc40f63d6a73831ca3581ca1e232311b26903bf
 
 PODFILE CHECKSUM: 8944f1b4387e362c83fb98e29d5f609b8998203e
 

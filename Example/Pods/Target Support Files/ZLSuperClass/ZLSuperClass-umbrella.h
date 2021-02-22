@@ -13,6 +13,7 @@
 #import "ZLSuperClassHeader.h"
 #import "ZLCollectionView.h"
 #import "ZLCountdownManager.h"
+#import "UIImage+ZLLoadPath.h"
 #import "ZLNavigationController.h"
 #import "ZLScrollView.h"
 #import "ZLTableView.h"

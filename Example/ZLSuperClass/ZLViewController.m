@@ -7,6 +7,7 @@
 //
 
 #import "ZLViewController.h"
+#import "UIImage+ZLLoadPath.h"
 
 @interface ZLViewController ()
 

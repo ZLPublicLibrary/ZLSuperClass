@@ -22,5 +22,6 @@
 
 //实用工具
 #import "ZLCountdownManager.h"
+#import "UIImage+ZLLoadPath.h"
 
 #endif /* ZLSuperClassHeader_h */
