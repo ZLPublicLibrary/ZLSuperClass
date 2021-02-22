@@ -65,7 +65,7 @@
 		A5E8948473B79ED44DFBDDFD /* Pods_ZLSuperClass_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLSuperClass_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1558C9C6539C7C5AF44DB5C /* Pods-ZLSuperClass_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSuperClass_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZLSuperClass_Tests/Pods-ZLSuperClass_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C918E39340AB9CA568F78E12 /* Pods-ZLSuperClass_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSuperClass_Example.release.xcconfig"; path = "Target Support Files/Pods-ZLSuperClass_Example/Pods-ZLSuperClass_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E7CBEC758C75A632CA8369D9 /* ZLSuperClass.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLSuperClass.podspec; path = ../ZLSuperClass.podspec; sourceTree = "<group>"; };
+		E7CBEC758C75A632CA8369D9 /* ZLSuperClass.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLSuperClass.podspec; path = ../ZLSuperClass.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F406297CAF7FA7EA3583A097 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

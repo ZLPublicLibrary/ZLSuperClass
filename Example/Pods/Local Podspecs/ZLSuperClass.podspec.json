@@ -1,6 +1,6 @@
 {
   "name": "ZLSuperClass",
-  "version": "1.1.1",
+  "version": "4.1.1",
   "summary": "自定义父类",
   "description": "'将实用的功能抽出一个抽象类，后续继承自这些类来提高效率'",
   "homepage": "https://github.com/ZLPublicLibrary/ZLSuperClass",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/ZLPublicLibrary/ZLSuperClass.git",
-    "tag": "1.1.1"
+    "tag": "4.1.1"
   },
   "platforms": {
     "ios": "9.0"

@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.name             = 'ZLSuperClass'
 
   #组件版本号
-  s.version          = '1.1.1'
+  s.version          = '4.1.1'
 
   #摘要
   s.summary          = '自定义父类'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Mr.Zhao' => 'itzhaolei@foxmail.com' }
 
   #仓库地址 SSH地址 tag指向了上面的 s.version
-  s.source           = { :git => 'https://github.com/ZLPublicLibrary/ZLSuperClass.git', :tag => '1.1.1' }
+  s.source           = { :git => 'https://github.com/ZLPublicLibrary/ZLSuperClass.git', :tag => '4.1.1' }
 
   #支持的系统版本号不小于哪个版本
   s.ios.deployment_target = '9.0'
