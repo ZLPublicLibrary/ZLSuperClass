@@ -20,6 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///导航条
 @property (nonatomic,strong) ZLNavigationBar *navBar;
 
+///关闭当前视图
+- (void)goback;
+
 @end
 
 NS_ASSUME_NONNULL_END

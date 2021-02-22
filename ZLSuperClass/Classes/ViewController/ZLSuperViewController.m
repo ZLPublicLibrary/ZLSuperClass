@@ -29,4 +29,14 @@
     return _navBar;
 }
 
+#pragma mark - Action
+///关闭当前视图
+- (void)goback {
+    if (self.navigationController.viewControllers.firstObject == self) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+        return ;
+    }
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 @end

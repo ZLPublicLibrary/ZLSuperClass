@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZLScrollView : UIScrollView
 
+///内容视图
+@property (nonatomic,weak) UIView *contentView;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -24,4 +24,21 @@
     return self;
 }
 
+#pragma mark - Set
+- (void)setContentSize:(CGSize)contentSize {
+    super.contentSize = contentSize;
+    self.contentView.frame = CGRectMake(0, 0, contentSize.width, contentSize.height);
+}
+
+#pragma mark - Lazy
+- (UIView *)contentView {
+    if (!_contentView) {
+        UIView *view = [[UIView alloc] initWithFrame:self.bounds];
+        view.backgroundColor = UIColor.whiteColor;
+        [self addSubview:view];
+        _contentView = view;
+    }
+    return _contentView;
+}
+
 @end
