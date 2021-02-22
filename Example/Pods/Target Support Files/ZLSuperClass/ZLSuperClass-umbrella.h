@@ -11,6 +11,7 @@
 #endif
 
 #import "ZLSuperClassHeader.h"
+#import "ZLButton.h"
 #import "ZLCollectionView.h"
 #import "ZLCountdownManager.h"
 #import "UIImage+ZLLoadPath.h"

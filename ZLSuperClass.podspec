@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.name             = 'ZLSuperClass'
 
   #组件版本号
-  s.version          = '4.1.3'
+  s.version          = '4.1.4'
 
   #摘要
   s.summary          = '自定义父类'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Mr.Zhao' => 'itzhaolei@foxmail.com' }
 
   #仓库地址 SSH地址 tag指向了上面的 s.version
-  s.source           = { :git => 'https://github.com/ZLPublicLibrary/ZLSuperClass.git', :tag => '4.1.3' }
+  s.source           = { :git => 'https://github.com/ZLPublicLibrary/ZLSuperClass.git', :tag => '4.1.4' }
 
   #支持的系统版本号不小于哪个版本
   s.ios.deployment_target = '9.0'
@@ -59,13 +59,16 @@ Pod::Spec.new do |s|
   s.subspec 'TextView' do |ss|
     ss.source_files = 'ZLSuperClass/Classes/TextView/**/*'
   end
+  s.subspec 'Button' do |ss|
+    ss.source_files = 'ZLSuperClass/Classes/Button/**/*'
+  end
   s.subspec 'Countdown' do |ss|
     ss.source_files = 'ZLSuperClass/Classes/Countdown/**/*'
   end
   s.subspec 'LoadImageFromPath' do |ss|
     ss.source_files = 'ZLSuperClass/Classes/LoadImageFromPath/**/*'
   end
-
+    
   #依赖的第三方库
   s.dependency 'ZLNavigationBar'
 
