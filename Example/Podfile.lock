@@ -1,33 +1,33 @@
 PODS:
   - ZLNavigationBar (2.0.0)
-  - ZLSuperClass (4.1.2):
+  - ZLSuperClass (4.1.3):
     - ZLNavigationBar
-    - ZLSuperClass/CollectionView (= 4.1.2)
-    - ZLSuperClass/Countdown (= 4.1.2)
-    - ZLSuperClass/LoadImageFromPath (= 4.1.2)
-    - ZLSuperClass/Nav (= 4.1.2)
-    - ZLSuperClass/ScrollView (= 4.1.2)
-    - ZLSuperClass/TableView (= 4.1.2)
-    - ZLSuperClass/TextField (= 4.1.2)
-    - ZLSuperClass/TextView (= 4.1.2)
-    - ZLSuperClass/ViewController (= 4.1.2)
-  - ZLSuperClass/CollectionView (4.1.2):
+    - ZLSuperClass/CollectionView (= 4.1.3)
+    - ZLSuperClass/Countdown (= 4.1.3)
+    - ZLSuperClass/LoadImageFromPath (= 4.1.3)
+    - ZLSuperClass/Nav (= 4.1.3)
+    - ZLSuperClass/ScrollView (= 4.1.3)
+    - ZLSuperClass/TableView (= 4.1.3)
+    - ZLSuperClass/TextField (= 4.1.3)
+    - ZLSuperClass/TextView (= 4.1.3)
+    - ZLSuperClass/ViewController (= 4.1.3)
+  - ZLSuperClass/CollectionView (4.1.3):
     - ZLNavigationBar
-  - ZLSuperClass/Countdown (4.1.2):
+  - ZLSuperClass/Countdown (4.1.3):
     - ZLNavigationBar
-  - ZLSuperClass/LoadImageFromPath (4.1.2):
+  - ZLSuperClass/LoadImageFromPath (4.1.3):
     - ZLNavigationBar
-  - ZLSuperClass/Nav (4.1.2):
+  - ZLSuperClass/Nav (4.1.3):
     - ZLNavigationBar
-  - ZLSuperClass/ScrollView (4.1.2):
+  - ZLSuperClass/ScrollView (4.1.3):
     - ZLNavigationBar
-  - ZLSuperClass/TableView (4.1.2):
+  - ZLSuperClass/TableView (4.1.3):
     - ZLNavigationBar
-  - ZLSuperClass/TextField (4.1.2):
+  - ZLSuperClass/TextField (4.1.3):
     - ZLNavigationBar
-  - ZLSuperClass/TextView (4.1.2):
+  - ZLSuperClass/TextView (4.1.3):
     - ZLNavigationBar
-  - ZLSuperClass/ViewController (4.1.2):
+  - ZLSuperClass/ViewController (4.1.3):
     - ZLNavigationBar
 
 DEPENDENCIES:
@@ -43,7 +43,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ZLNavigationBar: 1f09e6d307fae748821260f22c9ff444496d7618
-  ZLSuperClass: 5fc40f63d6a73831ca3581ca1e232311b26903bf
+  ZLSuperClass: df9cc954759ce8e48e25058e9eb52ce3945aaf55
 
 PODFILE CHECKSUM: 8944f1b4387e362c83fb98e29d5f609b8998203e
 
