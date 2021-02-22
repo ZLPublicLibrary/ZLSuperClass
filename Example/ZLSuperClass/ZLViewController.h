@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+#import <ZLSuperClass/ZLSuperClassHeader.h>
 
-@interface ZLViewController : UIViewController
+@interface ZLViewController : ZLSuperViewController
 
 @end

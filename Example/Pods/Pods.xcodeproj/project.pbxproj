@@ -1,0 +1,1297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0384A2F1212BC692DC49BB5616BAA116 /* ZLCountdownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1657911EF2F7150CCE1A5B849DED4BC1 /* ZLCountdownManager.m */; };
+		043B851E14D585B29CC9B40C2BF12435 /* ZLNavigationBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED41E85D2EAAC04E41F4F0D9A9EC2F7B /* ZLNavigationBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A11CFF80817F497DD48A3423FDE880D /* Pods-ZLSuperClass_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AAB2936168E1BEC19E32B8FD84EBC4 /* Pods-ZLSuperClass_Tests-dummy.m */; };
+		0B9EA6930B0C38457B3BF9A7C5FA91A3 /* ZLNavigationSearchBox.h in Headers */ = {isa = PBXBuildFile; fileRef = C61CCA15B954AF25C31D3EA257DD2840 /* ZLNavigationSearchBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ECE29FD77386952DD296F97901A7B0C /* ZLNavigationBar_GoBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BC06F201E64E6BABF50A2E03F3E673 /* ZLNavigationBar_GoBack@2x.png */; };
+		10C23DB37F0578F92470DA0EA0046537 /* ZLNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D48F253EB6B4CE27E3F7EC947B0DC93 /* ZLNavigationItem.m */; };
+		1CE94AA429636441CA5DAD7DEF38AB79 /* Pods-ZLSuperClass_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C75640AD3FF0AD2B7754B2DE5B3734E3 /* Pods-ZLSuperClass_Example-dummy.m */; };
+		2203446BC0164389055FD1E7DD5F3D50 /* ZLSuperClass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C8608D5D0F85CC8F5189E7449E21A2 /* ZLSuperClass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24D4EECED8380DDB7AB471FD9E9D1A78 /* ZLSuperClassHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C8C241C6EC244BAA86A026113F2B27 /* ZLSuperClassHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32EEB9A5CDA1DD9417D3A3C0B802723C /* ZLNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C03DF49A2A0CC3668C34F70C1B5877A /* ZLNavigationBar-dummy.m */; };
+		33347687BB07CBAF6706E7E930484FD6 /* ZLCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FE664469EB273258CBC70B39E3F194 /* ZLCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		335475EA439AC3E12A81665FDD41ABD1 /* ZLNavigationBackgroundBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E434B149FBF0C2F660F879608CBC7FE /* ZLNavigationBackgroundBar.m */; };
+		345F670E0BD4500A77BFD91AD0D2CDEA /* ZLSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAF7E6FA5392808F9738B0BF1660252 /* ZLSuperViewController.m */; };
+		3A30D6C07C03A781F19D2AE2D3D94528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		3F98ED2DC72648CCBCED04DD79A5B523 /* Pods-ZLSuperClass_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 749E64E6B430A0688F7C2FFC76834C8B /* Pods-ZLSuperClass_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40159AC5E186D4DAABA6463013BEADDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		4366B4303E41F8DA4437ADA79E93D2B6 /* ZLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E287E2C3D8716724CA14D00B70A6FD5A /* ZLTextField.m */; };
+		46A62B9763C1BA6C0181E23D680A6002 /* ZLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC80BEBD9179072EAF524C073664972D /* ZLTableView.m */; };
+		4E7EBEB5F24EEB89D951ECD5463BF4FA /* ZLNavigationBar_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8801631A136EDC9DD3E62D85B7295B /* ZLNavigationBar_search@3x.png */; };
+		4F470BED8B362AA86037CAE7EDAE4D7F /* ZLNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = EE006715D45B874EED58025118319185 /* ZLNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		524905B30267DF664E9AF9A38BCC5A8F /* ZLNavigationBar_GoBack_White@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2080C381344B583B529DAD4A779BA776 /* ZLNavigationBar_GoBack_White@2x.png */; };
+		53F2432131EBCC52965D677D5E151F40 /* ZLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F868BBFABC5475D784A2B2EC817C4231 /* ZLScrollView.m */; };
+		55CAD3DDB50DB9255D411CAE2DCD9545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		56769D6EB4C522E0BC4E0E6A51F12067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		5839166A037A88CBC60848842C98B573 /* ZLScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B7E675B0B7F9295EDE0008ED58573F /* ZLScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5961353CF69B1477CCAD7509AC962312 /* ZLNavigationSearchBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7E6B6DE2DD9503B2263437E554AD7 /* ZLNavigationSearchBox.m */; };
+		5C88F08E1CDF9B1E0EA079A942AF2230 /* ZLNavigationBackgroundBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 396D6130E9C941325E79195932F5B001 /* ZLNavigationBackgroundBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E31C5DC81A404389DBA5036F2C18D04 /* ZLNavigationActionBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC312AF17498F1DCD8E574E8D5BAA37 /* ZLNavigationActionBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F57B7407FBD00ED5B7E18FD0FFA31E3 /* ZLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 893AAE80FA64747469175F141742BF40 /* ZLCollectionView.m */; };
+		6B7A46E77CB1E7AD80E526C89753D018 /* ZLAppearanceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BD96442205FCDEBB1417F852109AEE99 /* ZLAppearanceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F8351D73E7D882FA0DB873E1F92C523 /* ZLNavigationBar_GoBack_White@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C95776E4DCBAEC5BABF371BE6C070FC /* ZLNavigationBar_GoBack_White@3x.png */; };
+		70C4041D81802EDCE292B2D549E5F4A7 /* ZLNavigationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 95656334531BF5DE487009EBFB648AEA /* ZLNavigationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		775C50BB0187739317726BCAB5F66F3D /* ZLAppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A638D585F71BAF1FC3BA151E854091 /* ZLAppearanceManager.m */; };
+		7876144C2430F8537D02A2E4B8A3CB6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		7A789C6ADD8F92752FDB8B9D2CF86706 /* ZLCountdownManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 83430045F63D147F2E0A467A69CC8F7F /* ZLCountdownManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CA71183A6117603F404A21C4EF99604 /* ZLNavigationTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF623DE38B043FA9F10725AE512EDEF /* ZLNavigationTitleView.m */; };
+		7EFAEF28BD4C800750D8A796B4D48C72 /* ZLNavigationTransparencyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F587FE29285491E1004E1F1C6AEAE3 /* ZLNavigationTransparencyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		869CA6BDE456DC719D6090CEC3D72281 /* ZLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B5BA4228B279E63CFFDDA5713B864C /* ZLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D0CFDEAB1573A574BD2C57D8B4A40D /* ZLNavigationActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E53D642DABB23D7CAA1AC3FE11A5FF2 /* ZLNavigationActionBar.m */; };
+		8D670481223C35A11AC490D654CE6CFD /* ZLSuperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 98653728EB1F345713B90FA6A187F3B1 /* ZLSuperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95D357D3400CD07D335429A7E4398C04 /* ZLSuperClass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E29BBBB8AC75AC7A575ECBF8610BC0DB /* ZLSuperClass-dummy.m */; };
+		9A8C96AB44D632A6B6927B654AB2E7A4 /* Pods-ZLSuperClass_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 192E7722AD4BB7210ABCBECB07CA1640 /* Pods-ZLSuperClass_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF32DB0FBE4E455D6C0727C37750F57 /* ZLNavigationBarPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8D8F3360C5B0B4AF41EDF2731F759C /* ZLNavigationBarPrivateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3B903E1B185417BAAB0F9C5F356FBA8 /* ZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0951A43AAEF24764D72F42E9BF5865 /* ZLNavigationController.m */; };
+		AA928E6BD90A539207B668D12DAAD2A9 /* ZLNavigationBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28313E91931C16DA6D7077DA71B8E8C4 /* ZLNavigationBar.bundle */; };
+		AB52506039AC37E82226B6281463A6DE /* ZLTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA870991BEAD80824284FC24058FFC /* ZLTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B444EF03E076AFD78A16C04E59549CB8 /* ZLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 129646DD0196E0D48F41FB0E13FDE581 /* ZLTextView.m */; };
+		D58CBF9459693C0E40379D6D3A71682B /* ZLNavigationBar_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3545AD36C8922E7CD1766C9C24BA11D5 /* ZLNavigationBar_search@2x.png */; };
+		DBC09451FE449931035A3695171CD95A /* ZLNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F910CD2325AFBB12F3BD23CB5F18BDF2 /* ZLNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCE57794B8B8A74706B481EDA6D92624 /* ZLNavigationTransparencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA5A1BB1F57631B85285DE6A529B9F /* ZLNavigationTransparencyManager.m */; };
+		DEFE2E739908E437F30C8E1BF266B61F /* ZLNavigationBar_GoBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55D76BFEB1BD47EB16A2AD5F6358ED9A /* ZLNavigationBar_GoBack@3x.png */; };
+		E07A02D00EFD0739C5A1A9884EDF6E6F /* ZLNavigationTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B07421AE0082708FEDE5CBFF7F02CC0 /* ZLNavigationTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8CCCDA16A316254504C268A16E61879 /* ZLTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = C4754D408EE2D620BBF611CEBE1A1137 /* ZLTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F886264133A96E692843438A8FF061D1 /* ZLNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C579D6788B5A7C0A11A4AEE90EB4EDD /* ZLNavigationBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16435CAB85BAABC2404E9B3871A4F8C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53BFF9B0EA49767C9AEF0BC19AA3DCC;
+			remoteInfo = ZLNavigationBar;
+		};
+		65B5C03E251472BC6F30766113E9606A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3627E868BC3D235CCEB4449BC4EB0ED5;
+			remoteInfo = ZLSuperClass;
+		};
+		6B2C771CE7A0D15AE418C02DC4F32B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189101C072DDEA7FEB1B8EAF31D4ECCA;
+			remoteInfo = "ZLNavigationBar-ZLNavigationBar";
+		};
+		8AAB2E348330720D67E77D3E56052490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDA851A73744CC83900E41EAAD1E3D4;
+			remoteInfo = "Pods-ZLSuperClass_Example";
+		};
+		C9E24F311FDB1DAE96D2E793697FCE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53BFF9B0EA49767C9AEF0BC19AA3DCC;
+			remoteInfo = ZLNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B107D9CED226036B0E051D4F954C7A /* Pods-ZLSuperClass_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLSuperClass_Tests-Info.plist"; sourceTree = "<group>"; };
+		00B7E675B0B7F9295EDE0008ED58573F /* ZLScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLScrollView.h; path = ZLSuperClass/Classes/ScrollView/ZLScrollView.h; sourceTree = "<group>"; };
+		0BED881825B3349B0B4AA0F7C88A5B74 /* Pods-ZLSuperClass_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLSuperClass_Example.modulemap"; sourceTree = "<group>"; };
+		0C579D6788B5A7C0A11A4AEE90EB4EDD /* ZLNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationBar.m; path = ZLNavigationBar/Classes/ZLNavigationBar.m; sourceTree = "<group>"; };
+		0C95776E4DCBAEC5BABF371BE6C070FC /* ZLNavigationBar_GoBack_White@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_GoBack_White@3x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_GoBack_White@3x.png"; sourceTree = "<group>"; };
+		1211DCC5DA9E35C76693FDEB511B8504 /* ZLSuperClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLSuperClass.framework; path = ZLSuperClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		129646DD0196E0D48F41FB0E13FDE581 /* ZLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLTextView.m; path = ZLSuperClass/Classes/TextView/ZLTextView.m; sourceTree = "<group>"; };
+		1657911EF2F7150CCE1A5B849DED4BC1 /* ZLCountdownManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLCountdownManager.m; path = ZLSuperClass/Classes/Countdown/ZLCountdownManager.m; sourceTree = "<group>"; };
+		192E7722AD4BB7210ABCBECB07CA1640 /* Pods-ZLSuperClass_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLSuperClass_Example-umbrella.h"; sourceTree = "<group>"; };
+		1E53D642DABB23D7CAA1AC3FE11A5FF2 /* ZLNavigationActionBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationActionBar.m; path = ZLNavigationBar/Classes/ZLNavigationActionBar.m; sourceTree = "<group>"; };
+		2080C381344B583B529DAD4A779BA776 /* ZLNavigationBar_GoBack_White@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_GoBack_White@2x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_GoBack_White@2x.png"; sourceTree = "<group>"; };
+		2118EC3FD9A79814BC1F7F26E4BFCAC6 /* ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist"; sourceTree = "<group>"; };
+		225227B98F5403849BA3C042BFE02A9F /* Pods-ZLSuperClass_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLSuperClass_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		28313E91931C16DA6D7077DA71B8E8C4 /* ZLNavigationBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZLNavigationBar.bundle; path = "ZLNavigationBar-ZLNavigationBar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFE626CA9D6141976273137D9B547D6 /* Pods-ZLSuperClass_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLSuperClass_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B07421AE0082708FEDE5CBFF7F02CC0 /* ZLNavigationTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationTitleView.h; path = ZLNavigationBar/Classes/ZLNavigationTitleView.h; sourceTree = "<group>"; };
+		325977F89DB18E8331FDA0D35F087190 /* ZLNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLNavigationBar-Info.plist"; sourceTree = "<group>"; };
+		33C8C241C6EC244BAA86A026113F2B27 /* ZLSuperClassHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLSuperClassHeader.h; path = ZLSuperClass/Classes/ZLSuperClassHeader.h; sourceTree = "<group>"; };
+		349320E7B3FFF63AB9AAC2BFDA924A65 /* ZLSuperClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLSuperClass.release.xcconfig; sourceTree = "<group>"; };
+		3545AD36C8922E7CD1766C9C24BA11D5 /* ZLNavigationBar_search@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_search@2x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_search@2x.png"; sourceTree = "<group>"; };
+		396D6130E9C941325E79195932F5B001 /* ZLNavigationBackgroundBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationBackgroundBar.h; path = ZLNavigationBar/Classes/ZLNavigationBackgroundBar.h; sourceTree = "<group>"; };
+		3BDA5A1BB1F57631B85285DE6A529B9F /* ZLNavigationTransparencyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationTransparencyManager.m; path = ZLNavigationBar/Classes/ZLNavigationTransparencyManager.m; sourceTree = "<group>"; };
+		41AA71A884A59FD27739BED6D413A881 /* ZLNavigationBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLNavigationBar.modulemap; sourceTree = "<group>"; };
+		49B5BA4228B279E63CFFDDA5713B864C /* ZLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLTextView.h; path = ZLSuperClass/Classes/TextView/ZLTextView.h; sourceTree = "<group>"; };
+		4B0951A43AAEF24764D72F42E9BF5865 /* ZLNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationController.m; path = ZLSuperClass/Classes/Nav/ZLNavigationController.m; sourceTree = "<group>"; };
+		501DA3250EF162A99FB8EB6C8DAD25ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		53E68BCAEC2AE58E0DDAC04CF6616F75 /* ZLNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLNavigationBar-prefix.pch"; sourceTree = "<group>"; };
+		55D76BFEB1BD47EB16A2AD5F6358ED9A /* ZLNavigationBar_GoBack@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_GoBack@3x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_GoBack@3x.png"; sourceTree = "<group>"; };
+		5880245E38C1BC7857E55F6F5B1D4C70 /* Pods-ZLSuperClass_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLSuperClass_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5DC312AF17498F1DCD8E574E8D5BAA37 /* ZLNavigationActionBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationActionBar.h; path = ZLNavigationBar/Classes/ZLNavigationActionBar.h; sourceTree = "<group>"; };
+		5E1BBAAC13790B606574582F05EE21B4 /* ZLNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLNavigationBar.release.xcconfig; sourceTree = "<group>"; };
+		64A638D585F71BAF1FC3BA151E854091 /* ZLAppearanceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLAppearanceManager.m; path = ZLNavigationBar/Classes/ZLAppearanceManager.m; sourceTree = "<group>"; };
+		64E7344334348F53D56F9DD6FF66AE41 /* ZLSuperClass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLSuperClass.modulemap; sourceTree = "<group>"; };
+		6C03DF49A2A0CC3668C34F70C1B5877A /* ZLNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLNavigationBar-dummy.m"; sourceTree = "<group>"; };
+		6D48F253EB6B4CE27E3F7EC947B0DC93 /* ZLNavigationItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationItem.m; path = ZLNavigationBar/Classes/ZLNavigationItem.m; sourceTree = "<group>"; };
+		749E64E6B430A0688F7C2FFC76834C8B /* Pods-ZLSuperClass_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLSuperClass_Tests-umbrella.h"; sourceTree = "<group>"; };
+		76D9B74C8711943B30CCCF7EB3DF08D7 /* ZLSuperClass-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLSuperClass-prefix.pch"; sourceTree = "<group>"; };
+		7CA7E6B6DE2DD9503B2263437E554AD7 /* ZLNavigationSearchBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationSearchBox.m; path = ZLNavigationBar/Classes/ZLNavigationSearchBox.m; sourceTree = "<group>"; };
+		806201D0E69947E7A8A6140B44AAB52C /* Pods-ZLSuperClass_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLSuperClass_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		83430045F63D147F2E0A467A69CC8F7F /* ZLCountdownManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLCountdownManager.h; path = ZLSuperClass/Classes/Countdown/ZLCountdownManager.h; sourceTree = "<group>"; };
+		84C8608D5D0F85CC8F5189E7449E21A2 /* ZLSuperClass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLSuperClass-umbrella.h"; sourceTree = "<group>"; };
+		893AAE80FA64747469175F141742BF40 /* ZLCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLCollectionView.m; path = ZLSuperClass/Classes/CollectionView/ZLCollectionView.m; sourceTree = "<group>"; };
+		8DF623DE38B043FA9F10725AE512EDEF /* ZLNavigationTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationTitleView.m; path = ZLNavigationBar/Classes/ZLNavigationTitleView.m; sourceTree = "<group>"; };
+		8E434B149FBF0C2F660F879608CBC7FE /* ZLNavigationBackgroundBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationBackgroundBar.m; path = ZLNavigationBar/Classes/ZLNavigationBackgroundBar.m; sourceTree = "<group>"; };
+		90D24D105E9833C92BFF6E348C67BDFC /* Pods-ZLSuperClass_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLSuperClass_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		914629DA2263D467A94B440B82625ECE /* Pods-ZLSuperClass_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLSuperClass_Example.release.xcconfig"; sourceTree = "<group>"; };
+		91AAB2936168E1BEC19E32B8FD84EBC4 /* Pods-ZLSuperClass_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLSuperClass_Tests-dummy.m"; sourceTree = "<group>"; };
+		93FF39CC0A6C2C57F6B0C274603DC1E1 /* ZLSuperClass.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLSuperClass.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95656334531BF5DE487009EBFB648AEA /* ZLNavigationItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationItem.h; path = ZLNavigationBar/Classes/ZLNavigationItem.h; sourceTree = "<group>"; };
+		98653728EB1F345713B90FA6A187F3B1 /* ZLSuperViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLSuperViewController.h; path = ZLSuperClass/Classes/ViewController/ZLSuperViewController.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A26B6843898FEA07F14A125FFF1EB4BB /* Pods-ZLSuperClass_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLSuperClass_Tests.modulemap"; sourceTree = "<group>"; };
+		A5FE664469EB273258CBC70B39E3F194 /* ZLCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLCollectionView.h; path = ZLSuperClass/Classes/CollectionView/ZLCollectionView.h; sourceTree = "<group>"; };
+		B010A2C68D474F38685D9386675C4682 /* Pods-ZLSuperClass_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLSuperClass_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4BC06F201E64E6BABF50A2E03F3E673 /* ZLNavigationBar_GoBack@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_GoBack@2x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_GoBack@2x.png"; sourceTree = "<group>"; };
+		B77F430290423B099B116ED80DA6E32B /* ZLSuperClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLSuperClass.debug.xcconfig; sourceTree = "<group>"; };
+		BD96442205FCDEBB1417F852109AEE99 /* ZLAppearanceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLAppearanceManager.h; path = ZLNavigationBar/Classes/ZLAppearanceManager.h; sourceTree = "<group>"; };
+		BE8801631A136EDC9DD3E62D85B7295B /* ZLNavigationBar_search@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_search@3x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_search@3x.png"; sourceTree = "<group>"; };
+		C217F02003B5C9B45469DAD524DD7E91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C4754D408EE2D620BBF611CEBE1A1137 /* ZLTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLTableView.h; path = ZLSuperClass/Classes/TableView/ZLTableView.h; sourceTree = "<group>"; };
+		C61CCA15B954AF25C31D3EA257DD2840 /* ZLNavigationSearchBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationSearchBox.h; path = ZLNavigationBar/Classes/ZLNavigationSearchBox.h; sourceTree = "<group>"; };
+		C75640AD3FF0AD2B7754B2DE5B3734E3 /* Pods-ZLSuperClass_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLSuperClass_Example-dummy.m"; sourceTree = "<group>"; };
+		CBE14167984FD45120465032A7441764 /* Pods_ZLSuperClass_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZLSuperClass_Tests.framework; path = "Pods-ZLSuperClass_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD9E6667A8E1E60529677307A84C8909 /* Pods-ZLSuperClass_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLSuperClass_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DF05227467482CC149E0E2764536433C /* ZLNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLNavigationBar.framework; path = ZLNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6BF87E0B5E7BD9B6B562793556743F /* Pods-ZLSuperClass_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLSuperClass_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFAF7E6FA5392808F9738B0BF1660252 /* ZLSuperViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLSuperViewController.m; path = ZLSuperClass/Classes/ViewController/ZLSuperViewController.m; sourceTree = "<group>"; };
+		E287E2C3D8716724CA14D00B70A6FD5A /* ZLTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLTextField.m; path = ZLSuperClass/Classes/TextField/ZLTextField.m; sourceTree = "<group>"; };
+		E29BBBB8AC75AC7A575ECBF8610BC0DB /* ZLSuperClass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLSuperClass-dummy.m"; sourceTree = "<group>"; };
+		E3F587FE29285491E1004E1F1C6AEAE3 /* ZLNavigationTransparencyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationTransparencyManager.h; path = ZLNavigationBar/Classes/ZLNavigationTransparencyManager.h; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EC80BEBD9179072EAF524C073664972D /* ZLTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLTableView.m; path = ZLSuperClass/Classes/TableView/ZLTableView.m; sourceTree = "<group>"; };
+		ED41E85D2EAAC04E41F4F0D9A9EC2F7B /* ZLNavigationBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLNavigationBar-umbrella.h"; sourceTree = "<group>"; };
+		EE006715D45B874EED58025118319185 /* ZLNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationBar.h; path = ZLNavigationBar/Classes/ZLNavigationBar.h; sourceTree = "<group>"; };
+		F191442A0DD037A3DD70742F0B5B2528 /* Pods_ZLSuperClass_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZLSuperClass_Example.framework; path = "Pods-ZLSuperClass_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D5908B6B199C009FF9C7688981A589 /* ZLSuperClass-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLSuperClass-Info.plist"; sourceTree = "<group>"; };
+		F6E14D533E408A43B27A0DA1E3316B41 /* Pods-ZLSuperClass_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLSuperClass_Example-Info.plist"; sourceTree = "<group>"; };
+		F868BBFABC5475D784A2B2EC817C4231 /* ZLScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLScrollView.m; path = ZLSuperClass/Classes/ScrollView/ZLScrollView.m; sourceTree = "<group>"; };
+		F910CD2325AFBB12F3BD23CB5F18BDF2 /* ZLNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationController.h; path = ZLSuperClass/Classes/Nav/ZLNavigationController.h; sourceTree = "<group>"; };
+		FA8D8F3360C5B0B4AF41EDF2731F759C /* ZLNavigationBarPrivateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationBarPrivateHeader.h; path = ZLNavigationBar/Classes/ZLNavigationBarPrivateHeader.h; sourceTree = "<group>"; };
+		FF7B0A9E0CCA8EB1FDCBA5A7ADC57C3D /* ZLNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLNavigationBar.debug.xcconfig; sourceTree = "<group>"; };
+		FFFA870991BEAD80824284FC24058FFC /* ZLTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLTextField.h; path = ZLSuperClass/Classes/TextField/ZLTextField.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25E2AB527B80B1860253A36A17928AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56769D6EB4C522E0BC4E0E6A51F12067 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422E1078B4C91DFAF2E9F3B20215ACAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFBE11D3392D69904983740187AD4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40159AC5E186D4DAABA6463013BEADDD /* Foundation.framework in Frameworks */,
+				3A30D6C07C03A781F19D2AE2D3D94528 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965693BA1E9E5EBEA6078C638B9BC813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7876144C2430F8537D02A2E4B8A3CB6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57428293D44A5E68C57C5311BE70895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CAD3DDB50DB9255D411CAE2DCD9545 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26C228957C46EFCD314E8FCADBE17CE4 /* ZLSuperClass */ = {
+			isa = PBXGroup;
+			children = (
+				33C8C241C6EC244BAA86A026113F2B27 /* ZLSuperClassHeader.h */,
+				C837DD378893C9B252C173A137FD556D /* CollectionView */,
+				5EBF7A02E5C86E9085F207820314D079 /* Countdown */,
+				40484B760AD5E7166F807C40D6FF3083 /* Nav */,
+				7B6E236539C1A9BC004684FE495CDEE3 /* Pod */,
+				F04ED62DB6E1D6007E9998C94258C492 /* ScrollView */,
+				A4B9AFC0974BEE5B3C6DBEEA0AF2E31E /* Support Files */,
+				E29D44273900ABF1F79BD9BFCC66E3ED /* TableView */,
+				EE90B3508A6F8ECACE5CF48EF4F07D1E /* TextField */,
+				5731369D6069E247155E44B8F1CC4815 /* TextView */,
+				4082D0FD31075A33C47504D9DA8DC036 /* ViewController */,
+			);
+			name = ZLSuperClass;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		35986CAC8CEF8C184C688EFB614B4AAC /* Pods-ZLSuperClass_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0BED881825B3349B0B4AA0F7C88A5B74 /* Pods-ZLSuperClass_Example.modulemap */,
+				B010A2C68D474F38685D9386675C4682 /* Pods-ZLSuperClass_Example-acknowledgements.markdown */,
+				225227B98F5403849BA3C042BFE02A9F /* Pods-ZLSuperClass_Example-acknowledgements.plist */,
+				C75640AD3FF0AD2B7754B2DE5B3734E3 /* Pods-ZLSuperClass_Example-dummy.m */,
+				DD9E6667A8E1E60529677307A84C8909 /* Pods-ZLSuperClass_Example-frameworks.sh */,
+				F6E14D533E408A43B27A0DA1E3316B41 /* Pods-ZLSuperClass_Example-Info.plist */,
+				192E7722AD4BB7210ABCBECB07CA1640 /* Pods-ZLSuperClass_Example-umbrella.h */,
+				5880245E38C1BC7857E55F6F5B1D4C70 /* Pods-ZLSuperClass_Example.debug.xcconfig */,
+				914629DA2263D467A94B440B82625ECE /* Pods-ZLSuperClass_Example.release.xcconfig */,
+			);
+			name = "Pods-ZLSuperClass_Example";
+			path = "Target Support Files/Pods-ZLSuperClass_Example";
+			sourceTree = "<group>";
+		};
+		40484B760AD5E7166F807C40D6FF3083 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				F910CD2325AFBB12F3BD23CB5F18BDF2 /* ZLNavigationController.h */,
+				4B0951A43AAEF24764D72F42E9BF5865 /* ZLNavigationController.m */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
+		4082D0FD31075A33C47504D9DA8DC036 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				98653728EB1F345713B90FA6A187F3B1 /* ZLSuperViewController.h */,
+				DFAF7E6FA5392808F9738B0BF1660252 /* ZLSuperViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		41CACFDEF61BC4BC8C48D330299B4C5E /* Pods-ZLSuperClass_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A26B6843898FEA07F14A125FFF1EB4BB /* Pods-ZLSuperClass_Tests.modulemap */,
+				DF6BF87E0B5E7BD9B6B562793556743F /* Pods-ZLSuperClass_Tests-acknowledgements.markdown */,
+				2AFE626CA9D6141976273137D9B547D6 /* Pods-ZLSuperClass_Tests-acknowledgements.plist */,
+				91AAB2936168E1BEC19E32B8FD84EBC4 /* Pods-ZLSuperClass_Tests-dummy.m */,
+				00B107D9CED226036B0E051D4F954C7A /* Pods-ZLSuperClass_Tests-Info.plist */,
+				749E64E6B430A0688F7C2FFC76834C8B /* Pods-ZLSuperClass_Tests-umbrella.h */,
+				90D24D105E9833C92BFF6E348C67BDFC /* Pods-ZLSuperClass_Tests.debug.xcconfig */,
+				806201D0E69947E7A8A6140B44AAB52C /* Pods-ZLSuperClass_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZLSuperClass_Tests";
+			path = "Target Support Files/Pods-ZLSuperClass_Tests";
+			sourceTree = "<group>";
+		};
+		4699DB6D5C01C6A221167140D2F3BB40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92E00E2598C2797951FA59E66216D236 /* ZLNavigationBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5731369D6069E247155E44B8F1CC4815 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				49B5BA4228B279E63CFFDDA5713B864C /* ZLTextView.h */,
+				129646DD0196E0D48F41FB0E13FDE581 /* ZLTextView.m */,
+			);
+			name = TextView;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5EBF7A02E5C86E9085F207820314D079 /* Countdown */ = {
+			isa = PBXGroup;
+			children = (
+				83430045F63D147F2E0A467A69CC8F7F /* ZLCountdownManager.h */,
+				1657911EF2F7150CCE1A5B849DED4BC1 /* ZLCountdownManager.m */,
+			);
+			name = Countdown;
+			sourceTree = "<group>";
+		};
+		72DE201F8FFC423A03D06DEBD96B8155 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26C228957C46EFCD314E8FCADBE17CE4 /* ZLSuperClass */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7B6E236539C1A9BC004684FE495CDEE3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C217F02003B5C9B45469DAD524DD7E91 /* LICENSE */,
+				501DA3250EF162A99FB8EB6C8DAD25ED /* README.md */,
+				93FF39CC0A6C2C57F6B0C274603DC1E1 /* ZLSuperClass.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		92E00E2598C2797951FA59E66216D236 /* ZLNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				BD96442205FCDEBB1417F852109AEE99 /* ZLAppearanceManager.h */,
+				64A638D585F71BAF1FC3BA151E854091 /* ZLAppearanceManager.m */,
+				5DC312AF17498F1DCD8E574E8D5BAA37 /* ZLNavigationActionBar.h */,
+				1E53D642DABB23D7CAA1AC3FE11A5FF2 /* ZLNavigationActionBar.m */,
+				396D6130E9C941325E79195932F5B001 /* ZLNavigationBackgroundBar.h */,
+				8E434B149FBF0C2F660F879608CBC7FE /* ZLNavigationBackgroundBar.m */,
+				EE006715D45B874EED58025118319185 /* ZLNavigationBar.h */,
+				0C579D6788B5A7C0A11A4AEE90EB4EDD /* ZLNavigationBar.m */,
+				FA8D8F3360C5B0B4AF41EDF2731F759C /* ZLNavigationBarPrivateHeader.h */,
+				95656334531BF5DE487009EBFB648AEA /* ZLNavigationItem.h */,
+				6D48F253EB6B4CE27E3F7EC947B0DC93 /* ZLNavigationItem.m */,
+				C61CCA15B954AF25C31D3EA257DD2840 /* ZLNavigationSearchBox.h */,
+				7CA7E6B6DE2DD9503B2263437E554AD7 /* ZLNavigationSearchBox.m */,
+				2B07421AE0082708FEDE5CBFF7F02CC0 /* ZLNavigationTitleView.h */,
+				8DF623DE38B043FA9F10725AE512EDEF /* ZLNavigationTitleView.m */,
+				E3F587FE29285491E1004E1F1C6AEAE3 /* ZLNavigationTransparencyManager.h */,
+				3BDA5A1BB1F57631B85285DE6A529B9F /* ZLNavigationTransparencyManager.m */,
+				F03F428D43657040837C8A5881AAED37 /* Resources */,
+				93507823B583CAB59D8DFE5D26D057FF /* Support Files */,
+			);
+			name = ZLNavigationBar;
+			path = ZLNavigationBar;
+			sourceTree = "<group>";
+		};
+		93507823B583CAB59D8DFE5D26D057FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2118EC3FD9A79814BC1F7F26E4BFCAC6 /* ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist */,
+				41AA71A884A59FD27739BED6D413A881 /* ZLNavigationBar.modulemap */,
+				6C03DF49A2A0CC3668C34F70C1B5877A /* ZLNavigationBar-dummy.m */,
+				325977F89DB18E8331FDA0D35F087190 /* ZLNavigationBar-Info.plist */,
+				53E68BCAEC2AE58E0DDAC04CF6616F75 /* ZLNavigationBar-prefix.pch */,
+				ED41E85D2EAAC04E41F4F0D9A9EC2F7B /* ZLNavigationBar-umbrella.h */,
+				FF7B0A9E0CCA8EB1FDCBA5A7ADC57C3D /* ZLNavigationBar.debug.xcconfig */,
+				5E1BBAAC13790B606574582F05EE21B4 /* ZLNavigationBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZLNavigationBar";
+			sourceTree = "<group>";
+		};
+		A4B9AFC0974BEE5B3C6DBEEA0AF2E31E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E7344334348F53D56F9DD6FF66AE41 /* ZLSuperClass.modulemap */,
+				E29BBBB8AC75AC7A575ECBF8610BC0DB /* ZLSuperClass-dummy.m */,
+				F5D5908B6B199C009FF9C7688981A589 /* ZLSuperClass-Info.plist */,
+				76D9B74C8711943B30CCCF7EB3DF08D7 /* ZLSuperClass-prefix.pch */,
+				84C8608D5D0F85CC8F5189E7449E21A2 /* ZLSuperClass-umbrella.h */,
+				B77F430290423B099B116ED80DA6E32B /* ZLSuperClass.debug.xcconfig */,
+				349320E7B3FFF63AB9AAC2BFDA924A65 /* ZLSuperClass.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZLSuperClass";
+			sourceTree = "<group>";
+		};
+		C837DD378893C9B252C173A137FD556D /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				A5FE664469EB273258CBC70B39E3F194 /* ZLCollectionView.h */,
+				893AAE80FA64747469175F141742BF40 /* ZLCollectionView.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				72DE201F8FFC423A03D06DEBD96B8155 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				4699DB6D5C01C6A221167140D2F3BB40 /* Pods */,
+				FE3941D7583FB3AAE610565D2F083246 /* Products */,
+				F20BBAC71E17AFD168B9C882EA3D1B11 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E29D44273900ABF1F79BD9BFCC66E3ED /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				C4754D408EE2D620BBF611CEBE1A1137 /* ZLTableView.h */,
+				EC80BEBD9179072EAF524C073664972D /* ZLTableView.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		EE90B3508A6F8ECACE5CF48EF4F07D1E /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA870991BEAD80824284FC24058FFC /* ZLTextField.h */,
+				E287E2C3D8716724CA14D00B70A6FD5A /* ZLTextField.m */,
+			);
+			name = TextField;
+			sourceTree = "<group>";
+		};
+		F03F428D43657040837C8A5881AAED37 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4BC06F201E64E6BABF50A2E03F3E673 /* ZLNavigationBar_GoBack@2x.png */,
+				55D76BFEB1BD47EB16A2AD5F6358ED9A /* ZLNavigationBar_GoBack@3x.png */,
+				2080C381344B583B529DAD4A779BA776 /* ZLNavigationBar_GoBack_White@2x.png */,
+				0C95776E4DCBAEC5BABF371BE6C070FC /* ZLNavigationBar_GoBack_White@3x.png */,
+				3545AD36C8922E7CD1766C9C24BA11D5 /* ZLNavigationBar_search@2x.png */,
+				BE8801631A136EDC9DD3E62D85B7295B /* ZLNavigationBar_search@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F04ED62DB6E1D6007E9998C94258C492 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				00B7E675B0B7F9295EDE0008ED58573F /* ZLScrollView.h */,
+				F868BBFABC5475D784A2B2EC817C4231 /* ZLScrollView.m */,
+			);
+			name = ScrollView;
+			sourceTree = "<group>";
+		};
+		F20BBAC71E17AFD168B9C882EA3D1B11 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35986CAC8CEF8C184C688EFB614B4AAC /* Pods-ZLSuperClass_Example */,
+				41CACFDEF61BC4BC8C48D330299B4C5E /* Pods-ZLSuperClass_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FE3941D7583FB3AAE610565D2F083246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F191442A0DD037A3DD70742F0B5B2528 /* Pods_ZLSuperClass_Example.framework */,
+				CBE14167984FD45120465032A7441764 /* Pods_ZLSuperClass_Tests.framework */,
+				28313E91931C16DA6D7077DA71B8E8C4 /* ZLNavigationBar.bundle */,
+				DF05227467482CC149E0E2764536433C /* ZLNavigationBar.framework */,
+				1211DCC5DA9E35C76693FDEB511B8504 /* ZLSuperClass.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A029DAB2A9F03CCE237A094640435ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F98ED2DC72648CCBCED04DD79A5B523 /* Pods-ZLSuperClass_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1053CD2B3DF750436C829681A04501 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33347687BB07CBAF6706E7E930484FD6 /* ZLCollectionView.h in Headers */,
+				7A789C6ADD8F92752FDB8B9D2CF86706 /* ZLCountdownManager.h in Headers */,
+				DBC09451FE449931035A3695171CD95A /* ZLNavigationController.h in Headers */,
+				5839166A037A88CBC60848842C98B573 /* ZLScrollView.h in Headers */,
+				2203446BC0164389055FD1E7DD5F3D50 /* ZLSuperClass-umbrella.h in Headers */,
+				24D4EECED8380DDB7AB471FD9E9D1A78 /* ZLSuperClassHeader.h in Headers */,
+				8D670481223C35A11AC490D654CE6CFD /* ZLSuperViewController.h in Headers */,
+				E8CCCDA16A316254504C268A16E61879 /* ZLTableView.h in Headers */,
+				AB52506039AC37E82226B6281463A6DE /* ZLTextField.h in Headers */,
+				869CA6BDE456DC719D6090CEC3D72281 /* ZLTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B328024EB60C029A83F1D17BABE93A02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8C96AB44D632A6B6927B654AB2E7A4 /* Pods-ZLSuperClass_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0802399FB3C2CE7C01504161ADE1F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7A46E77CB1E7AD80E526C89753D018 /* ZLAppearanceManager.h in Headers */,
+				5E31C5DC81A404389DBA5036F2C18D04 /* ZLNavigationActionBar.h in Headers */,
+				5C88F08E1CDF9B1E0EA079A942AF2230 /* ZLNavigationBackgroundBar.h in Headers */,
+				043B851E14D585B29CC9B40C2BF12435 /* ZLNavigationBar-umbrella.h in Headers */,
+				4F470BED8B362AA86037CAE7EDAE4D7F /* ZLNavigationBar.h in Headers */,
+				9DF32DB0FBE4E455D6C0727C37750F57 /* ZLNavigationBarPrivateHeader.h in Headers */,
+				70C4041D81802EDCE292B2D549E5F4A7 /* ZLNavigationItem.h in Headers */,
+				0B9EA6930B0C38457B3BF9A7C5FA91A3 /* ZLNavigationSearchBox.h in Headers */,
+				E07A02D00EFD0739C5A1A9884EDF6E6F /* ZLNavigationTitleView.h in Headers */,
+				7EFAEF28BD4C800750D8A796B4D48C72 /* ZLNavigationTransparencyManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		189101C072DDEA7FEB1B8EAF31D4ECCA /* ZLNavigationBar-ZLNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83C56976534E089F8ED09E5C3D1519D /* Build configuration list for PBXNativeTarget "ZLNavigationBar-ZLNavigationBar" */;
+			buildPhases = (
+				7C139DE1A6FC553714500A2C45484899 /* Sources */,
+				422E1078B4C91DFAF2E9F3B20215ACAC /* Frameworks */,
+				E09EA53BEA2C137B64EC814630277A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZLNavigationBar-ZLNavigationBar";
+			productName = "ZLNavigationBar-ZLNavigationBar";
+			productReference = 28313E91931C16DA6D7077DA71B8E8C4 /* ZLNavigationBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3627E868BC3D235CCEB4449BC4EB0ED5 /* ZLSuperClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974885B6E5F9643855BBCFB0EAB75A6B /* Build configuration list for PBXNativeTarget "ZLSuperClass" */;
+			buildPhases = (
+				4B1053CD2B3DF750436C829681A04501 /* Headers */,
+				6ACEBB5B36310DBDB1F032EEB0EF344A /* Sources */,
+				25E2AB527B80B1860253A36A17928AFC /* Frameworks */,
+				FC0A9C8B8A0B9008B425E88825CC2600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1114E6D5ECB2585D5DE83A5269F82CD8 /* PBXTargetDependency */,
+			);
+			name = ZLSuperClass;
+			productName = ZLSuperClass;
+			productReference = 1211DCC5DA9E35C76693FDEB511B8504 /* ZLSuperClass.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97985669BA1F40FB1929C3B072961A33 /* Pods-ZLSuperClass_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163A1743892EC1AAA8D673E830D580F2 /* Build configuration list for PBXNativeTarget "Pods-ZLSuperClass_Tests" */;
+			buildPhases = (
+				2A029DAB2A9F03CCE237A094640435ED /* Headers */,
+				9C507B7941370B6AE0101C3389D75ECA /* Sources */,
+				965693BA1E9E5EBEA6078C638B9BC813 /* Frameworks */,
+				27583F65E54923B005718520F1BA7A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB573FB18A1EC2CB32FC3647E567F06 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLSuperClass_Tests";
+			productName = "Pods-ZLSuperClass_Tests";
+			productReference = CBE14167984FD45120465032A7441764 /* Pods_ZLSuperClass_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9DB979CE24E5DE940327859FF35A8D /* Build configuration list for PBXNativeTarget "ZLNavigationBar" */;
+			buildPhases = (
+				DB0802399FB3C2CE7C01504161ADE1F4 /* Headers */,
+				D8BE24898BEB41E1C275EF3B2CF4034C /* Sources */,
+				7CFBE11D3392D69904983740187AD4A1 /* Frameworks */,
+				CB079B509B79CBBED009F4154558A735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				243CEB7F4A074A6E80B8CE99136CFB57 /* PBXTargetDependency */,
+			);
+			name = ZLNavigationBar;
+			productName = ZLNavigationBar;
+			productReference = DF05227467482CC149E0E2764536433C /* ZLNavigationBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFDA851A73744CC83900E41EAAD1E3D4 /* Pods-ZLSuperClass_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A990A64DBA6F9FB899495ED562C16DC /* Build configuration list for PBXNativeTarget "Pods-ZLSuperClass_Example" */;
+			buildPhases = (
+				B328024EB60C029A83F1D17BABE93A02 /* Headers */,
+				FB90CA946728728E73AA1F80ED3AF821 /* Sources */,
+				A57428293D44A5E68C57C5311BE70895 /* Frameworks */,
+				86CC3B032206E5F59D32F6EE94C80653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48DCF4705FF1C55EBCCAE48006E40C79 /* PBXTargetDependency */,
+				C7223B35FB4B0D070EFB39D1B9486E9A /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLSuperClass_Example";
+			productName = "Pods-ZLSuperClass_Example";
+			productReference = F191442A0DD037A3DD70742F0B5B2528 /* Pods_ZLSuperClass_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FE3941D7583FB3AAE610565D2F083246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDA851A73744CC83900E41EAAD1E3D4 /* Pods-ZLSuperClass_Example */,
+				97985669BA1F40FB1929C3B072961A33 /* Pods-ZLSuperClass_Tests */,
+				A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */,
+				189101C072DDEA7FEB1B8EAF31D4ECCA /* ZLNavigationBar-ZLNavigationBar */,
+				3627E868BC3D235CCEB4449BC4EB0ED5 /* ZLSuperClass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27583F65E54923B005718520F1BA7A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86CC3B032206E5F59D32F6EE94C80653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB079B509B79CBBED009F4154558A735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA928E6BD90A539207B668D12DAAD2A9 /* ZLNavigationBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09EA53BEA2C137B64EC814630277A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECE29FD77386952DD296F97901A7B0C /* ZLNavigationBar_GoBack@2x.png in Resources */,
+				DEFE2E739908E437F30C8E1BF266B61F /* ZLNavigationBar_GoBack@3x.png in Resources */,
+				524905B30267DF664E9AF9A38BCC5A8F /* ZLNavigationBar_GoBack_White@2x.png in Resources */,
+				6F8351D73E7D882FA0DB873E1F92C523 /* ZLNavigationBar_GoBack_White@3x.png in Resources */,
+				D58CBF9459693C0E40379D6D3A71682B /* ZLNavigationBar_search@2x.png in Resources */,
+				4E7EBEB5F24EEB89D951ECD5463BF4FA /* ZLNavigationBar_search@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0A9C8B8A0B9008B425E88825CC2600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ACEBB5B36310DBDB1F032EEB0EF344A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F57B7407FBD00ED5B7E18FD0FFA31E3 /* ZLCollectionView.m in Sources */,
+				0384A2F1212BC692DC49BB5616BAA116 /* ZLCountdownManager.m in Sources */,
+				A3B903E1B185417BAAB0F9C5F356FBA8 /* ZLNavigationController.m in Sources */,
+				53F2432131EBCC52965D677D5E151F40 /* ZLScrollView.m in Sources */,
+				95D357D3400CD07D335429A7E4398C04 /* ZLSuperClass-dummy.m in Sources */,
+				345F670E0BD4500A77BFD91AD0D2CDEA /* ZLSuperViewController.m in Sources */,
+				46A62B9763C1BA6C0181E23D680A6002 /* ZLTableView.m in Sources */,
+				4366B4303E41F8DA4437ADA79E93D2B6 /* ZLTextField.m in Sources */,
+				B444EF03E076AFD78A16C04E59549CB8 /* ZLTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C139DE1A6FC553714500A2C45484899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C507B7941370B6AE0101C3389D75ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A11CFF80817F497DD48A3423FDE880D /* Pods-ZLSuperClass_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BE24898BEB41E1C275EF3B2CF4034C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775C50BB0187739317726BCAB5F66F3D /* ZLAppearanceManager.m in Sources */,
+				86D0CFDEAB1573A574BD2C57D8B4A40D /* ZLNavigationActionBar.m in Sources */,
+				335475EA439AC3E12A81665FDD41ABD1 /* ZLNavigationBackgroundBar.m in Sources */,
+				32EEB9A5CDA1DD9417D3A3C0B802723C /* ZLNavigationBar-dummy.m in Sources */,
+				F886264133A96E692843438A8FF061D1 /* ZLNavigationBar.m in Sources */,
+				10C23DB37F0578F92470DA0EA0046537 /* ZLNavigationItem.m in Sources */,
+				5961353CF69B1477CCAD7509AC962312 /* ZLNavigationSearchBox.m in Sources */,
+				7CA71183A6117603F404A21C4EF99604 /* ZLNavigationTitleView.m in Sources */,
+				DCE57794B8B8A74706B481EDA6D92624 /* ZLNavigationTransparencyManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB90CA946728728E73AA1F80ED3AF821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE94AA429636441CA5DAD7DEF38AB79 /* Pods-ZLSuperClass_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1114E6D5ECB2585D5DE83A5269F82CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLNavigationBar;
+			target = A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */;
+			targetProxy = 16435CAB85BAABC2404E9B3871A4F8C0 /* PBXContainerItemProxy */;
+		};
+		243CEB7F4A074A6E80B8CE99136CFB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZLNavigationBar-ZLNavigationBar";
+			target = 189101C072DDEA7FEB1B8EAF31D4ECCA /* ZLNavigationBar-ZLNavigationBar */;
+			targetProxy = 6B2C771CE7A0D15AE418C02DC4F32B36 /* PBXContainerItemProxy */;
+		};
+		48DCF4705FF1C55EBCCAE48006E40C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLNavigationBar;
+			target = A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */;
+			targetProxy = C9E24F311FDB1DAE96D2E793697FCE26 /* PBXContainerItemProxy */;
+		};
+		C7223B35FB4B0D070EFB39D1B9486E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLSuperClass;
+			target = 3627E868BC3D235CCEB4449BC4EB0ED5 /* ZLSuperClass */;
+			targetProxy = 65B5C03E251472BC6F30766113E9606A /* PBXContainerItemProxy */;
+		};
+		EBB573FB18A1EC2CB32FC3647E567F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZLSuperClass_Example";
+			target = EFDA851A73744CC83900E41EAAD1E3D4 /* Pods-ZLSuperClass_Example */;
+			targetProxy = 8AAB2E348330720D67E77D3E56052490 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052D7C65B7449F4CFE88AA69B2694F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1BBAAC13790B606574582F05EE21B4 /* ZLNavigationBar.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLNavigationBar";
+				IBSC_MODULE = ZLNavigationBar;
+				INFOPLIST_FILE = "Target Support Files/ZLNavigationBar/ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZLNavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		15A255B9ABCDDA7A456522959A716B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5880245E38C1BC7857E55F6F5B1D4C70 /* Pods-ZLSuperClass_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLSuperClass_Example/Pods-ZLSuperClass_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLSuperClass_Example/Pods-ZLSuperClass_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17A988FAC605C62B2F34B2DCE5119BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D24D105E9833C92BFF6E348C67BDFC /* Pods-ZLSuperClass_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLSuperClass_Tests/Pods-ZLSuperClass_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLSuperClass_Tests/Pods-ZLSuperClass_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D40E6C629B09F6B564EAAE797239F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7B0A9E0CCA8EB1FDCBA5A7ADC57C3D /* ZLNavigationBar.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLNavigationBar";
+				IBSC_MODULE = ZLNavigationBar;
+				INFOPLIST_FILE = "Target Support Files/ZLNavigationBar/ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZLNavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		506C3EA20952A098D3465761904142B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7B0A9E0CCA8EB1FDCBA5A7ADC57C3D /* ZLNavigationBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLNavigationBar/ZLNavigationBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLNavigationBar/ZLNavigationBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLNavigationBar/ZLNavigationBar.modulemap";
+				PRODUCT_MODULE_NAME = ZLNavigationBar;
+				PRODUCT_NAME = ZLNavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A1C496C49CEBCCA3DFF9F91AD5398AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349320E7B3FFF63AB9AAC2BFDA924A65 /* ZLSuperClass.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLSuperClass/ZLSuperClass-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLSuperClass/ZLSuperClass-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ZLSuperClass/ZLSuperClass.modulemap";
+				PRODUCT_MODULE_NAME = ZLSuperClass;
+				PRODUCT_NAME = ZLSuperClass;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B3DD42C86788C6FFD48374643CA84FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1BBAAC13790B606574582F05EE21B4 /* ZLNavigationBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLNavigationBar/ZLNavigationBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLNavigationBar/ZLNavigationBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLNavigationBar/ZLNavigationBar.modulemap";
+				PRODUCT_MODULE_NAME = ZLNavigationBar;
+				PRODUCT_NAME = ZLNavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9314C13B7ACA045DE862792B33505144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 914629DA2263D467A94B440B82625ECE /* Pods-ZLSuperClass_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLSuperClass_Example/Pods-ZLSuperClass_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLSuperClass_Example/Pods-ZLSuperClass_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9963CE66A115D2514B766B4CAD641D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806201D0E69947E7A8A6140B44AAB52C /* Pods-ZLSuperClass_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLSuperClass_Tests/Pods-ZLSuperClass_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLSuperClass_Tests/Pods-ZLSuperClass_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9687C7D7CE7D092D37F02035E2AAC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77F430290423B099B116ED80DA6E32B /* ZLSuperClass.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLSuperClass/ZLSuperClass-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLSuperClass/ZLSuperClass-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ZLSuperClass/ZLSuperClass.modulemap";
+				PRODUCT_MODULE_NAME = ZLSuperClass;
+				PRODUCT_NAME = ZLSuperClass;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		163A1743892EC1AAA8D673E830D580F2 /* Build configuration list for PBXNativeTarget "Pods-ZLSuperClass_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A988FAC605C62B2F34B2DCE5119BDC /* Debug */,
+				9963CE66A115D2514B766B4CAD641D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A990A64DBA6F9FB899495ED562C16DC /* Build configuration list for PBXNativeTarget "Pods-ZLSuperClass_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A255B9ABCDDA7A456522959A716B9F /* Debug */,
+				9314C13B7ACA045DE862792B33505144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974885B6E5F9643855BBCFB0EAB75A6B /* Build configuration list for PBXNativeTarget "ZLSuperClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9687C7D7CE7D092D37F02035E2AAC3C /* Debug */,
+				6A1C496C49CEBCCA3DFF9F91AD5398AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9DB979CE24E5DE940327859FF35A8D /* Build configuration list for PBXNativeTarget "ZLNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506C3EA20952A098D3465761904142B8 /* Debug */,
+				8B3DD42C86788C6FFD48374643CA84FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83C56976534E089F8ED09E5C3D1519D /* Build configuration list for PBXNativeTarget "ZLNavigationBar-ZLNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D40E6C629B09F6B564EAAE797239F81 /* Debug */,
+				052D7C65B7449F4CFE88AA69B2694F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

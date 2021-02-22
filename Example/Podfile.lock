@@ -1,0 +1,47 @@
+PODS:
+  - ZLNavigationBar (2.0.0)
+  - ZLSuperClass (1.1.1):
+    - ZLNavigationBar
+    - ZLSuperClass/CollectionView (= 1.1.1)
+    - ZLSuperClass/Countdown (= 1.1.1)
+    - ZLSuperClass/Nav (= 1.1.1)
+    - ZLSuperClass/ScrollView (= 1.1.1)
+    - ZLSuperClass/TableView (= 1.1.1)
+    - ZLSuperClass/TextField (= 1.1.1)
+    - ZLSuperClass/TextView (= 1.1.1)
+    - ZLSuperClass/ViewController (= 1.1.1)
+  - ZLSuperClass/CollectionView (1.1.1):
+    - ZLNavigationBar
+  - ZLSuperClass/Countdown (1.1.1):
+    - ZLNavigationBar
+  - ZLSuperClass/Nav (1.1.1):
+    - ZLNavigationBar
+  - ZLSuperClass/ScrollView (1.1.1):
+    - ZLNavigationBar
+  - ZLSuperClass/TableView (1.1.1):
+    - ZLNavigationBar
+  - ZLSuperClass/TextField (1.1.1):
+    - ZLNavigationBar
+  - ZLSuperClass/TextView (1.1.1):
+    - ZLNavigationBar
+  - ZLSuperClass/ViewController (1.1.1):
+    - ZLNavigationBar
+
+DEPENDENCIES:
+  - ZLSuperClass (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ZLNavigationBar
+
+EXTERNAL SOURCES:
+  ZLSuperClass:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZLNavigationBar: 1f09e6d307fae748821260f22c9ff444496d7618
+  ZLSuperClass: b52eef015d5cf7db62b6f304da01ccc0571cf14a
+
+PODFILE CHECKSUM: 8944f1b4387e362c83fb98e29d5f609b8998203e
+
+COCOAPODS: 1.10.0

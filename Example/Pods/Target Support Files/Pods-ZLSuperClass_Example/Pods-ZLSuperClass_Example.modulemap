@@ -1,0 +1,6 @@
+framework module Pods_ZLSuperClass_Example {
+  umbrella header "Pods-ZLSuperClass_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

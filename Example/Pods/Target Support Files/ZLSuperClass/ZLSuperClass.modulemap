@@ -1,0 +1,6 @@
+framework module ZLSuperClass {
+  umbrella header "ZLSuperClass-umbrella.h"
+
+  export *
+  module * { export * }
+}
