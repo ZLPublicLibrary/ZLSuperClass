@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.name             = 'ZLSuperClass'
 
   #组件版本号
-  s.version          = '4.1.4'
+  s.version          = '4.1.5'
 
   #摘要
   s.summary          = '自定义父类'
@@ -67,6 +67,9 @@ Pod::Spec.new do |s|
   end
   s.subspec 'LoadImageFromPath' do |ss|
     ss.source_files = 'ZLSuperClass/Classes/LoadImageFromPath/**/*'
+  end
+  s.subspec 'MessageTextView' do |ss|
+    ss.source_files = 'ZLSuperClass/Classes/MessageTextView/**/*'
   end
     
   #依赖的第三方库
