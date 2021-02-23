@@ -1,39 +1,39 @@
 PODS:
   - ZLNavigationBar (2.0.0)
-  - ZLSuperClass (4.1.5):
+  - ZLSuperClass (4.1.6):
     - ZLNavigationBar
-    - ZLSuperClass/Button (= 4.1.5)
-    - ZLSuperClass/CollectionView (= 4.1.5)
-    - ZLSuperClass/Countdown (= 4.1.5)
-    - ZLSuperClass/LoadImageFromPath (= 4.1.5)
-    - ZLSuperClass/MessageTextView (= 4.1.5)
-    - ZLSuperClass/Nav (= 4.1.5)
-    - ZLSuperClass/ScrollView (= 4.1.5)
-    - ZLSuperClass/TableView (= 4.1.5)
-    - ZLSuperClass/TextField (= 4.1.5)
-    - ZLSuperClass/TextView (= 4.1.5)
-    - ZLSuperClass/ViewController (= 4.1.5)
-  - ZLSuperClass/Button (4.1.5):
+    - ZLSuperClass/Button (= 4.1.6)
+    - ZLSuperClass/CollectionView (= 4.1.6)
+    - ZLSuperClass/Countdown (= 4.1.6)
+    - ZLSuperClass/LoadImageFromPath (= 4.1.6)
+    - ZLSuperClass/MessageTextView (= 4.1.6)
+    - ZLSuperClass/Nav (= 4.1.6)
+    - ZLSuperClass/ScrollView (= 4.1.6)
+    - ZLSuperClass/TableView (= 4.1.6)
+    - ZLSuperClass/TextField (= 4.1.6)
+    - ZLSuperClass/TextView (= 4.1.6)
+    - ZLSuperClass/ViewController (= 4.1.6)
+  - ZLSuperClass/Button (4.1.6):
     - ZLNavigationBar
-  - ZLSuperClass/CollectionView (4.1.5):
+  - ZLSuperClass/CollectionView (4.1.6):
     - ZLNavigationBar
-  - ZLSuperClass/Countdown (4.1.5):
+  - ZLSuperClass/Countdown (4.1.6):
     - ZLNavigationBar
-  - ZLSuperClass/LoadImageFromPath (4.1.5):
+  - ZLSuperClass/LoadImageFromPath (4.1.6):
     - ZLNavigationBar
-  - ZLSuperClass/MessageTextView (4.1.5):
+  - ZLSuperClass/MessageTextView (4.1.6):
     - ZLNavigationBar
-  - ZLSuperClass/Nav (4.1.5):
+  - ZLSuperClass/Nav (4.1.6):
     - ZLNavigationBar
-  - ZLSuperClass/ScrollView (4.1.5):
+  - ZLSuperClass/ScrollView (4.1.6):
     - ZLNavigationBar
-  - ZLSuperClass/TableView (4.1.5):
+  - ZLSuperClass/TableView (4.1.6):
     - ZLNavigationBar
-  - ZLSuperClass/TextField (4.1.5):
+  - ZLSuperClass/TextField (4.1.6):
     - ZLNavigationBar
-  - ZLSuperClass/TextView (4.1.5):
+  - ZLSuperClass/TextView (4.1.6):
     - ZLNavigationBar
-  - ZLSuperClass/ViewController (4.1.5):
+  - ZLSuperClass/ViewController (4.1.6):
     - ZLNavigationBar
 
 DEPENDENCIES:
@@ -49,7 +49,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ZLNavigationBar: 1f09e6d307fae748821260f22c9ff444496d7618
-  ZLSuperClass: 8fefdce53bf1e524d47a36a156d4b4aa28a8c4eb
+  ZLSuperClass: 0f1086730dd47fd6dd5226c40c3fe7d8f08ed7c7
 
 PODFILE CHECKSUM: 8944f1b4387e362c83fb98e29d5f609b8998203e
 
