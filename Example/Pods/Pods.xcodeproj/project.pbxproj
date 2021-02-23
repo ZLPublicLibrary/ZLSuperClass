@@ -7,210 +7,199 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C9E08642F52A5742B35A93455C07F3 /* UIImage+ZLLoadPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0B0B1A2AE83B6C6180FE29294FB015 /* UIImage+ZLLoadPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		043B851E14D585B29CC9B40C2BF12435 /* ZLNavigationBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED41E85D2EAAC04E41F4F0D9A9EC2F7B /* ZLNavigationBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		094AFA415D2F81D6277921285E715C7A /* ZLNavigationBar_GoBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BC06F201E64E6BABF50A2E03F3E673 /* ZLNavigationBar_GoBack@2x.png */; };
 		0A11CFF80817F497DD48A3423FDE880D /* Pods-ZLSuperClass_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AAB2936168E1BEC19E32B8FD84EBC4 /* Pods-ZLSuperClass_Tests-dummy.m */; };
-		0A334DD07E072F609753184B85C35D2F /* ZLSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C8EF3AC639C92B8E7C72E8344AFFD7 /* ZLSuperViewController.m */; };
 		0B9EA6930B0C38457B3BF9A7C5FA91A3 /* ZLNavigationSearchBox.h in Headers */ = {isa = PBXBuildFile; fileRef = C61CCA15B954AF25C31D3EA257DD2840 /* ZLNavigationSearchBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10C23DB37F0578F92470DA0EA0046537 /* ZLNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D48F253EB6B4CE27E3F7EC947B0DC93 /* ZLNavigationItem.m */; };
-		19D4EF0E9D7CF53CE9C6BE9D4A44E388 /* ZLNavigationBar_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3545AD36C8922E7CD1766C9C24BA11D5 /* ZLNavigationBar_search@2x.png */; };
+		1BE58A5853C502B135C7FBA8CA5D0DE1 /* ZLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E596B1417B21F6426480AA754678D9 /* ZLButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CE94AA429636441CA5DAD7DEF38AB79 /* Pods-ZLSuperClass_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C75640AD3FF0AD2B7754B2DE5B3734E3 /* Pods-ZLSuperClass_Example-dummy.m */; };
+		27DCA49E53972A81DA912E038F196AAB /* UIImage+ZLLoadPath.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C9289AAFA2179967185EEAB928FA72 /* UIImage+ZLLoadPath.m */; };
+		27E607DF54896A66FA4AEBB8752C8759 /* ZLCountdownManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 488A91B102E5F8A0499E4A43C4D5D05E /* ZLCountdownManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F337281476793DE255524976688D37C /* ZLTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F697D17B248AAF285EDEC908CAD8531D /* ZLTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32EEB9A5CDA1DD9417D3A3C0B802723C /* ZLNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C03DF49A2A0CC3668C34F70C1B5877A /* ZLNavigationBar-dummy.m */; };
 		335475EA439AC3E12A81665FDD41ABD1 /* ZLNavigationBackgroundBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E434B149FBF0C2F660F879608CBC7FE /* ZLNavigationBackgroundBar.m */; };
-		33CC8581C21780F810DC1D36E1364957 /* ZLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B3AC5F081BFC8EF074D944FE19A21C /* ZLButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		354B3337C52C87D220AF248816268009 /* ZLSuperClassHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C31E3CADE9FB51C490E4DBC306546E9 /* ZLSuperClassHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35AED58B6A21F81CE41668C0D70D8DE6 /* ZLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BAF69837352FF4FC94D989E8090C94 /* ZLScrollView.m */; };
 		3A30D6C07C03A781F19D2AE2D3D94528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		3BF01E333D5F949146611F7C8C3A924A /* ZLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 29372B80A3B3B15564B4E527E7AFCE57 /* ZLTextField.m */; };
 		3F98ED2DC72648CCBCED04DD79A5B523 /* Pods-ZLSuperClass_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 749E64E6B430A0688F7C2FFC76834C8B /* Pods-ZLSuperClass_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40159AC5E186D4DAABA6463013BEADDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		43178970B26093955FC2BB1A777F29B6 /* ZLTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A6751EBB8C1B87EFF589FD0D733AE1 /* ZLTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40BAB0CDB5270C4D5ACFCBCE6B0D025A /* ZLSuperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB27AAFCE895F5F88720B69284559D7 /* ZLSuperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48DDF1F61E4B3774F9171E992E7C1516 /* ZLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E22AD6CD65A0BA3AF0A67F1FA3268090 /* ZLTableView.m */; };
+		4CDCA555639E74DC3905670BC989D411 /* ZLCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 889A110CD0D3C3F18658773AC6973F66 /* ZLCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F470BED8B362AA86037CAE7EDAE4D7F /* ZLNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = EE006715D45B874EED58025118319185 /* ZLNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50433B37C4853546D5763EA1F02CA6AA /* ZLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC241FB9B1738DD3092C23EB0826263 /* ZLTableView.m */; };
-		51DFDD937DDBBF726210928B04C4674B /* UIImage+ZLLoadPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D81744E4869280F8902467F810FED4A /* UIImage+ZLLoadPath.m */; };
-		5284A12DC0459A48FF34821398C6FC0A /* ZLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAD9AE902BDD624793707867A8FB32E /* ZLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544F3A8B88C018DF04502708187F6CAB /* ZLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A51A1E41807375848BB8A4C6BCD0D8D3 /* ZLButton.m */; };
 		55CAD3DDB50DB9255D411CAE2DCD9545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		56F652A3A6BF93C35377270E2299235E /* ZLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC8D1A04BB976E3AA2E6CEAC95B420B /* ZLScrollView.m */; };
-		58833D76C4051B66907D03CEB69C0F5F /* ZLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DB12D45E82F3465F04183C16EC2379 /* ZLButton.m */; };
 		5961353CF69B1477CCAD7509AC962312 /* ZLNavigationSearchBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7E6B6DE2DD9503B2263437E554AD7 /* ZLNavigationSearchBox.m */; };
-		59E9BC122F6488DAB884CE5E3D37EB08 /* ZLSuperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB8FCE7EEBAD8672E70D903F6729A39 /* ZLSuperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A7E78BA68AA42FA49CFE5BC75615991 /* ZLScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF10B4A6797ED03C48ED7C37B52B4043 /* ZLScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C60B4364989D0DDB1B8266E71C4BA74 /* ZLTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 033ECB9CAEDBF6EBF485751D0AACDF27 /* ZLTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C88F08E1CDF9B1E0EA079A942AF2230 /* ZLNavigationBackgroundBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 396D6130E9C941325E79195932F5B001 /* ZLNavigationBackgroundBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E31C5DC81A404389DBA5036F2C18D04 /* ZLNavigationActionBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC312AF17498F1DCD8E574E8D5BAA37 /* ZLNavigationActionBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6062E70E7CE7FCAF02DF3DFDC2C2CE17 /* ZLMessageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE94A3B7AE1ECCBE6E86784EDA99457 /* ZLMessageTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		658B6FE27A6B24DBB89797CF8BB67407 /* ZLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6ECF3FD06EA656C0D460A71AA7F15BF /* ZLCollectionView.m */; };
 		6B7A46E77CB1E7AD80E526C89753D018 /* ZLAppearanceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BD96442205FCDEBB1417F852109AEE99 /* ZLAppearanceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DC76E34712058BD3F1BDF46BEFFE339 /* ZLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5FEF64B8467DACC002EC7FDBB434B /* ZLTextView.m */; };
 		70C4041D81802EDCE292B2D549E5F4A7 /* ZLNavigationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 95656334531BF5DE487009EBFB648AEA /* ZLNavigationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AFD69A4925CCD01A13FDF002D084AA /* ZLSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590BD58E4195535301AF3193FD30A29 /* ZLSuperViewController.m */; };
+		746E3FF0070706246A602B981FE63430 /* ZLNavigationBar_GoBack_White@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2080C381344B583B529DAD4A779BA776 /* ZLNavigationBar_GoBack_White@2x.png */; };
+		77427E34255C512102E70680303EC026 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		775C50BB0187739317726BCAB5F66F3D /* ZLAppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A638D585F71BAF1FC3BA151E854091 /* ZLAppearanceManager.m */; };
 		7876144C2430F8537D02A2E4B8A3CB6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		7BA72C64FD47BEBBB8DBAB6C2644DFC6 /* ZLTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5BD5AAA17FC22C498A7B8E8DB0F9CF /* ZLTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C56047765B22D730629770B54C28BC9 /* ZLNavigationBar_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8801631A136EDC9DD3E62D85B7295B /* ZLNavigationBar_search@3x.png */; };
 		7CA71183A6117603F404A21C4EF99604 /* ZLNavigationTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF623DE38B043FA9F10725AE512EDEF /* ZLNavigationTitleView.m */; };
 		7EFAEF28BD4C800750D8A796B4D48C72 /* ZLNavigationTransparencyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F587FE29285491E1004E1F1C6AEAE3 /* ZLNavigationTransparencyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86D0CFDEAB1573A574BD2C57D8B4A40D /* ZLNavigationActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E53D642DABB23D7CAA1AC3FE11A5FF2 /* ZLNavigationActionBar.m */; };
-		8B9A216E8FDB701FD4D949319CF22498 /* ZLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F373D84D8F0A3AAEA8B2D7F6DAE789 /* ZLTextView.m */; };
-		91C40F75E51D26DE00C580BF42CB57DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		91F3442790F4E0C9E11EE74E1BD4EAC6 /* UIImage+ZLLoadPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF570C83FBDFD07BC116B2AF02D5DDB /* UIImage+ZLLoadPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA19B5AB36981719490C2049DC04695 /* ZLSuperClassHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC8A99FCADD6009584CD228F2400763 /* ZLSuperClassHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9739A0D3E7FC7BE53B4AB638B9883FF2 /* ZLSuperClass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C569B4B4D630320DC17D2525F9AC33E /* ZLSuperClass-dummy.m */; };
 		9A8C96AB44D632A6B6927B654AB2E7A4 /* Pods-ZLSuperClass_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 192E7722AD4BB7210ABCBECB07CA1640 /* Pods-ZLSuperClass_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BCBD01F47F50993281AFDCD26792374 /* ZLCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F198E159B21F06EF586AF8633DA233CB /* ZLCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DF32DB0FBE4E455D6C0727C37750F57 /* ZLNavigationBarPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8D8F3360C5B0B4AF41EDF2731F759C /* ZLNavigationBarPrivateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A75DA53CB404108E59637547F3E877BC /* ZLCountdownManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 263CE875BEFC1286B80B58BCA822E54A /* ZLCountdownManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A833250AEAB584ABB4B2DFA213FFC43C /* ZLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69B60F74C6D26A96DF59FEB4C17509 /* ZLCollectionView.m */; };
+		A826BE9E51CA3E2A153E95E323CA8B6E /* ZLCountdownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E39BBB50E087EC0A033A3501CB098B1F /* ZLCountdownManager.m */; };
+		AA2D709D89839326E1B61D320FD1A763 /* ZLScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = B8692A4D452D5FEA5A288AFE36AFEBA0 /* ZLScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA928E6BD90A539207B668D12DAAD2A9 /* ZLNavigationBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28313E91931C16DA6D7077DA71B8E8C4 /* ZLNavigationBar.bundle */; };
-		B0A062B4FDCEA104340A544E8756F8BF /* ZLSuperClass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA9B729AFB931F74C08EB38C2C52D23 /* ZLSuperClass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEE619D514355D30D5366FCF7C200B28 /* ZLNavigationBar_GoBack_White@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2080C381344B583B529DAD4A779BA776 /* ZLNavigationBar_GoBack_White@2x.png */; };
-		C3EC0831DE21444D17CE5A95EA85E802 /* ZLNavigationBar_GoBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55D76BFEB1BD47EB16A2AD5F6358ED9A /* ZLNavigationBar_GoBack@3x.png */; };
-		C779A9BC7A3FD17A9327C4D0DE32AB98 /* ZLCountdownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F80DF51E0C046A3987D3689BABEFF99E /* ZLCountdownManager.m */; };
-		D57D87899A2490B4B921690DC42B4A14 /* ZLSuperClass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAB8CDCB84E0DFB522712AAD86608B7 /* ZLSuperClass-dummy.m */; };
-		DAFAE46D034CC4C4427C3346F1C4AE08 /* ZLNavigationBar_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8801631A136EDC9DD3E62D85B7295B /* ZLNavigationBar_search@3x.png */; };
+		ABFD794FAFEF5EDE22B0714EF333C5F6 /* ZLNavigationBar_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3545AD36C8922E7CD1766C9C24BA11D5 /* ZLNavigationBar_search@2x.png */; };
+		B22DCE6E51DFA978294E094DF9540B0B /* ZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B4C8CF75C96678EB1EA2F2A7E39A8A /* ZLNavigationController.m */; };
+		BB9CA66BAE4E85CFC5A5AAE4BBB77C61 /* ZLNavigationBar_GoBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BC06F201E64E6BABF50A2E03F3E673 /* ZLNavigationBar_GoBack@2x.png */; };
+		BFEDD1A38134E78D8C9361C05DAE0868 /* ZLNavigationBar_GoBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55D76BFEB1BD47EB16A2AD5F6358ED9A /* ZLNavigationBar_GoBack@3x.png */; };
+		C350252C2053641A250968471F1821BA /* ZLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F708AF85B8A700CC00132FE53317D59A /* ZLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF73414E5D47FECDB79686819F8916A4 /* ZLNavigationBar_GoBack_White@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C95776E4DCBAEC5BABF371BE6C070FC /* ZLNavigationBar_GoBack_White@3x.png */; };
+		D310FF3125F6081E2D0EAAB75BEA407B /* ZLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F907320D32B51B96C019FAA8955ECEF0 /* ZLTextField.m */; };
 		DCE57794B8B8A74706B481EDA6D92624 /* ZLNavigationTransparencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA5A1BB1F57631B85285DE6A529B9F /* ZLNavigationTransparencyManager.m */; };
-		DE92F6518256B9BA5DDC49736D2D6AED /* ZLNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3C032CF265E7D0299ACE81FC985CBA /* ZLNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E07A02D00EFD0739C5A1A9884EDF6E6F /* ZLNavigationTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B07421AE0082708FEDE5CBFF7F02CC0 /* ZLNavigationTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1396882D2338896F9A8BC7E3C020B59 /* ZLNavigationBar_GoBack_White@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C95776E4DCBAEC5BABF371BE6C070FC /* ZLNavigationBar_GoBack_White@3x.png */; };
-		EF91B114D8F873A23F20E61241CCDD33 /* ZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8811E83253CF50DB73FF0A5682D91CDA /* ZLNavigationController.m */; };
+		E49D084B936BAB589A0103FDA2033D7F /* ZLMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A5D0D881405F56EE81E37BA31A421 /* ZLMessageTextView.m */; };
+		E990001F9928473CE03E85DB510DD155 /* ZLNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A30099106F63E62F5A0E490DB53C8E /* ZLNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D4D433737FC41F33843B34B4F40481 /* ZLSuperClass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39769C4DD70461F1F1EB9319258A4C06 /* ZLSuperClass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F886264133A96E692843438A8FF061D1 /* ZLNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C579D6788B5A7C0A11A4AEE90EB4EDD /* ZLNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		28853195F455A71899F961117994F316 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 189101C072DDEA7FEB1B8EAF31D4ECCA;
-			remoteInfo = "ZLNavigationBar-ZLNavigationBar";
-		};
-		3B86330F7C8670158F41266B0D2A8846 /* PBXContainerItemProxy */ = {
+		248A2C782F05FA35A4FE6946CC84BAF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3627E868BC3D235CCEB4449BC4EB0ED5;
 			remoteInfo = ZLSuperClass;
 		};
-		891871B2D8361BFF9329E7C4301DA1CE /* PBXContainerItemProxy */ = {
+		4AF0B6ADBDDB176F0E3AC22A6B8D12EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A53BFF9B0EA49767C9AEF0BC19AA3DCC;
-			remoteInfo = ZLNavigationBar;
+			remoteGlobalIDString = 189101C072DDEA7FEB1B8EAF31D4ECCA;
+			remoteInfo = "ZLNavigationBar-ZLNavigationBar";
 		};
-		C49CD9FD593B570B606F3124E5C73321 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A53BFF9B0EA49767C9AEF0BC19AA3DCC;
-			remoteInfo = ZLNavigationBar;
-		};
-		D76B91D6C68F5CFB0661182376CA80D6 /* PBXContainerItemProxy */ = {
+		6479D1D4C6A8C923A0FF731E1C826A41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EFDA851A73744CC83900E41EAAD1E3D4;
 			remoteInfo = "Pods-ZLSuperClass_Example";
 		};
+		738FA2E71D382E75B476CB0CAFB53848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53BFF9B0EA49767C9AEF0BC19AA3DCC;
+			remoteInfo = ZLNavigationBar;
+		};
+		D0EACFFF74199A7C842C1A19B7BA7AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53BFF9B0EA49767C9AEF0BC19AA3DCC;
+			remoteInfo = ZLNavigationBar;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00B107D9CED226036B0E051D4F954C7A /* Pods-ZLSuperClass_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLSuperClass_Tests-Info.plist"; sourceTree = "<group>"; };
+		01BAF69837352FF4FC94D989E8090C94 /* ZLScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLScrollView.m; path = ZLSuperClass/Classes/ScrollView/ZLScrollView.m; sourceTree = "<group>"; };
+		033ECB9CAEDBF6EBF485751D0AACDF27 /* ZLTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLTableView.h; path = ZLSuperClass/Classes/TableView/ZLTableView.h; sourceTree = "<group>"; };
+		06CAF6461AA9A1474E451F8501EBDE74 /* ZLSuperClass-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLSuperClass-Info.plist"; sourceTree = "<group>"; };
 		0BED881825B3349B0B4AA0F7C88A5B74 /* Pods-ZLSuperClass_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLSuperClass_Example.modulemap"; sourceTree = "<group>"; };
 		0C579D6788B5A7C0A11A4AEE90EB4EDD /* ZLNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationBar.m; path = ZLNavigationBar/Classes/ZLNavigationBar.m; sourceTree = "<group>"; };
 		0C95776E4DCBAEC5BABF371BE6C070FC /* ZLNavigationBar_GoBack_White@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_GoBack_White@3x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_GoBack_White@3x.png"; sourceTree = "<group>"; };
-		0F5BD5AAA17FC22C498A7B8E8DB0F9CF /* ZLTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLTableView.h; path = ZLSuperClass/Classes/TableView/ZLTableView.h; sourceTree = "<group>"; };
+		0CB27AAFCE895F5F88720B69284559D7 /* ZLSuperViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLSuperViewController.h; path = ZLSuperClass/Classes/ViewController/ZLSuperViewController.h; sourceTree = "<group>"; };
 		1211DCC5DA9E35C76693FDEB511B8504 /* ZLSuperClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLSuperClass.framework; path = ZLSuperClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B3AC5F081BFC8EF074D944FE19A21C /* ZLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLButton.h; path = ZLSuperClass/Classes/Button/ZLButton.h; sourceTree = "<group>"; };
 		192E7722AD4BB7210ABCBECB07CA1640 /* Pods-ZLSuperClass_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLSuperClass_Example-umbrella.h"; sourceTree = "<group>"; };
+		1B5A5D0D881405F56EE81E37BA31A421 /* ZLMessageTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLMessageTextView.m; path = ZLSuperClass/Classes/MessageTextView/ZLMessageTextView.m; sourceTree = "<group>"; };
 		1E53D642DABB23D7CAA1AC3FE11A5FF2 /* ZLNavigationActionBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationActionBar.m; path = ZLNavigationBar/Classes/ZLNavigationActionBar.m; sourceTree = "<group>"; };
-		1EAFEA49516E595DB5DC4FC3106EEB64 /* ZLSuperClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLSuperClass.debug.xcconfig; sourceTree = "<group>"; };
-		1FAD9AE902BDD624793707867A8FB32E /* ZLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLTextView.h; path = ZLSuperClass/Classes/TextView/ZLTextView.h; sourceTree = "<group>"; };
 		2080C381344B583B529DAD4A779BA776 /* ZLNavigationBar_GoBack_White@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_GoBack_White@2x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_GoBack_White@2x.png"; sourceTree = "<group>"; };
 		2118EC3FD9A79814BC1F7F26E4BFCAC6 /* ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist"; sourceTree = "<group>"; };
 		225227B98F5403849BA3C042BFE02A9F /* Pods-ZLSuperClass_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLSuperClass_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		263CE875BEFC1286B80B58BCA822E54A /* ZLCountdownManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLCountdownManager.h; path = ZLSuperClass/Classes/Countdown/ZLCountdownManager.h; sourceTree = "<group>"; };
+		2590BD58E4195535301AF3193FD30A29 /* ZLSuperViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLSuperViewController.m; path = ZLSuperClass/Classes/ViewController/ZLSuperViewController.m; sourceTree = "<group>"; };
 		28313E91931C16DA6D7077DA71B8E8C4 /* ZLNavigationBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZLNavigationBar.bundle; path = "ZLNavigationBar-ZLNavigationBar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		29372B80A3B3B15564B4E527E7AFCE57 /* ZLTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLTextField.m; path = ZLSuperClass/Classes/TextField/ZLTextField.m; sourceTree = "<group>"; };
 		2AFE626CA9D6141976273137D9B547D6 /* Pods-ZLSuperClass_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLSuperClass_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2B07421AE0082708FEDE5CBFF7F02CC0 /* ZLNavigationTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationTitleView.h; path = ZLNavigationBar/Classes/ZLNavigationTitleView.h; sourceTree = "<group>"; };
-		2BF570C83FBDFD07BC116B2AF02D5DDB /* UIImage+ZLLoadPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZLLoadPath.h"; path = "ZLSuperClass/Classes/LoadImageFromPath/UIImage+ZLLoadPath.h"; sourceTree = "<group>"; };
-		2D81744E4869280F8902467F810FED4A /* UIImage+ZLLoadPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZLLoadPath.m"; path = "ZLSuperClass/Classes/LoadImageFromPath/UIImage+ZLLoadPath.m"; sourceTree = "<group>"; };
+		2BF5FEF64B8467DACC002EC7FDBB434B /* ZLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLTextView.m; path = ZLSuperClass/Classes/TextView/ZLTextView.m; sourceTree = "<group>"; };
 		325977F89DB18E8331FDA0D35F087190 /* ZLNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLNavigationBar-Info.plist"; sourceTree = "<group>"; };
 		3545AD36C8922E7CD1766C9C24BA11D5 /* ZLNavigationBar_search@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_search@2x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_search@2x.png"; sourceTree = "<group>"; };
 		396D6130E9C941325E79195932F5B001 /* ZLNavigationBackgroundBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationBackgroundBar.h; path = ZLNavigationBar/Classes/ZLNavigationBackgroundBar.h; sourceTree = "<group>"; };
-		3AA9B729AFB931F74C08EB38C2C52D23 /* ZLSuperClass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLSuperClass-umbrella.h"; sourceTree = "<group>"; };
+		39769C4DD70461F1F1EB9319258A4C06 /* ZLSuperClass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLSuperClass-umbrella.h"; sourceTree = "<group>"; };
 		3BDA5A1BB1F57631B85285DE6A529B9F /* ZLNavigationTransparencyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationTransparencyManager.m; path = ZLNavigationBar/Classes/ZLNavigationTransparencyManager.m; sourceTree = "<group>"; };
+		3F6A1095D982CD41C342E5BCB81B2D0A /* ZLSuperClass-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLSuperClass-prefix.pch"; sourceTree = "<group>"; };
 		41AA71A884A59FD27739BED6D413A881 /* ZLNavigationBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLNavigationBar.modulemap; sourceTree = "<group>"; };
-		4D51BD094F09CB436D5576901D82059C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4EC8D1A04BB976E3AA2E6CEAC95B420B /* ZLScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLScrollView.m; path = ZLSuperClass/Classes/ScrollView/ZLScrollView.m; sourceTree = "<group>"; };
-		4EF5A99AE3E30C3898377F775AFC4447 /* ZLSuperClass-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLSuperClass-Info.plist"; sourceTree = "<group>"; };
-		52C8EF3AC639C92B8E7C72E8344AFFD7 /* ZLSuperViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLSuperViewController.m; path = ZLSuperClass/Classes/ViewController/ZLSuperViewController.m; sourceTree = "<group>"; };
+		488A91B102E5F8A0499E4A43C4D5D05E /* ZLCountdownManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLCountdownManager.h; path = ZLSuperClass/Classes/Countdown/ZLCountdownManager.h; sourceTree = "<group>"; };
+		4F6BADE56D76FAD39BF108FF7473588D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		53E68BCAEC2AE58E0DDAC04CF6616F75 /* ZLNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLNavigationBar-prefix.pch"; sourceTree = "<group>"; };
-		54138BB8386CC52B329C73A504FC26A4 /* ZLSuperClass.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLSuperClass.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5455077779E5A9B7E378F903307F032C /* ZLSuperClass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLSuperClass.modulemap; sourceTree = "<group>"; };
 		55D76BFEB1BD47EB16A2AD5F6358ED9A /* ZLNavigationBar_GoBack@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_GoBack@3x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_GoBack@3x.png"; sourceTree = "<group>"; };
 		5880245E38C1BC7857E55F6F5B1D4C70 /* Pods-ZLSuperClass_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLSuperClass_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5A0E8C6B9F7C27A13C0E483B1031657A /* ZLSuperClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLSuperClass.release.xcconfig; sourceTree = "<group>"; };
 		5DC312AF17498F1DCD8E574E8D5BAA37 /* ZLNavigationActionBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationActionBar.h; path = ZLNavigationBar/Classes/ZLNavigationActionBar.h; sourceTree = "<group>"; };
 		5E1BBAAC13790B606574582F05EE21B4 /* ZLNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLNavigationBar.release.xcconfig; sourceTree = "<group>"; };
 		64A638D585F71BAF1FC3BA151E854091 /* ZLAppearanceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLAppearanceManager.m; path = ZLNavigationBar/Classes/ZLAppearanceManager.m; sourceTree = "<group>"; };
 		6C03DF49A2A0CC3668C34F70C1B5877A /* ZLNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLNavigationBar-dummy.m"; sourceTree = "<group>"; };
-		6C31E3CADE9FB51C490E4DBC306546E9 /* ZLSuperClassHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLSuperClassHeader.h; path = ZLSuperClass/Classes/ZLSuperClassHeader.h; sourceTree = "<group>"; };
+		6C569B4B4D630320DC17D2525F9AC33E /* ZLSuperClass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLSuperClass-dummy.m"; sourceTree = "<group>"; };
 		6D48F253EB6B4CE27E3F7EC947B0DC93 /* ZLNavigationItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationItem.m; path = ZLNavigationBar/Classes/ZLNavigationItem.m; sourceTree = "<group>"; };
 		749E64E6B430A0688F7C2FFC76834C8B /* Pods-ZLSuperClass_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLSuperClass_Tests-umbrella.h"; sourceTree = "<group>"; };
+		77C8D7E2954B84DBF92DA6D8CD382A19 /* ZLSuperClass.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLSuperClass.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7CA7E6B6DE2DD9503B2263437E554AD7 /* ZLNavigationSearchBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationSearchBox.m; path = ZLNavigationBar/Classes/ZLNavigationSearchBox.m; sourceTree = "<group>"; };
 		806201D0E69947E7A8A6140B44AAB52C /* Pods-ZLSuperClass_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLSuperClass_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		879305F5B9DB6A446C71B42AF25A98D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8811E83253CF50DB73FF0A5682D91CDA /* ZLNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationController.m; path = ZLSuperClass/Classes/Nav/ZLNavigationController.m; sourceTree = "<group>"; };
+		82DC39FF973CC6201BCD2C91361CAB67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		889A110CD0D3C3F18658773AC6973F66 /* ZLCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLCollectionView.h; path = ZLSuperClass/Classes/CollectionView/ZLCollectionView.h; sourceTree = "<group>"; };
+		8D0B0B1A2AE83B6C6180FE29294FB015 /* UIImage+ZLLoadPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZLLoadPath.h"; path = "ZLSuperClass/Classes/LoadImageFromPath/UIImage+ZLLoadPath.h"; sourceTree = "<group>"; };
 		8DF623DE38B043FA9F10725AE512EDEF /* ZLNavigationTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationTitleView.m; path = ZLNavigationBar/Classes/ZLNavigationTitleView.m; sourceTree = "<group>"; };
 		8E434B149FBF0C2F660F879608CBC7FE /* ZLNavigationBackgroundBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationBackgroundBar.m; path = ZLNavigationBar/Classes/ZLNavigationBackgroundBar.m; sourceTree = "<group>"; };
 		90D24D105E9833C92BFF6E348C67BDFC /* Pods-ZLSuperClass_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLSuperClass_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		914629DA2263D467A94B440B82625ECE /* Pods-ZLSuperClass_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLSuperClass_Example.release.xcconfig"; sourceTree = "<group>"; };
 		91AAB2936168E1BEC19E32B8FD84EBC4 /* Pods-ZLSuperClass_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLSuperClass_Tests-dummy.m"; sourceTree = "<group>"; };
 		95656334531BF5DE487009EBFB648AEA /* ZLNavigationItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationItem.h; path = ZLNavigationBar/Classes/ZLNavigationItem.h; sourceTree = "<group>"; };
-		97A6751EBB8C1B87EFF589FD0D733AE1 /* ZLTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLTextField.h; path = ZLSuperClass/Classes/TextField/ZLTextField.h; sourceTree = "<group>"; };
+		96930922764205503478E7ACBAC0D9E1 /* ZLSuperClass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLSuperClass.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A26B6843898FEA07F14A125FFF1EB4BB /* Pods-ZLSuperClass_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLSuperClass_Tests.modulemap"; sourceTree = "<group>"; };
-		AEB8FCE7EEBAD8672E70D903F6729A39 /* ZLSuperViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLSuperViewController.h; path = ZLSuperClass/Classes/ViewController/ZLSuperViewController.h; sourceTree = "<group>"; };
+		A51A1E41807375848BB8A4C6BCD0D8D3 /* ZLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLButton.m; path = ZLSuperClass/Classes/Button/ZLButton.m; sourceTree = "<group>"; };
+		A968E9644678F929865060E080229019 /* ZLSuperClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLSuperClass.debug.xcconfig; sourceTree = "<group>"; };
+		AFC8A99FCADD6009584CD228F2400763 /* ZLSuperClassHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLSuperClassHeader.h; path = ZLSuperClass/Classes/ZLSuperClassHeader.h; sourceTree = "<group>"; };
 		B010A2C68D474F38685D9386675C4682 /* Pods-ZLSuperClass_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLSuperClass_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B4BC06F201E64E6BABF50A2E03F3E673 /* ZLNavigationBar_GoBack@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_GoBack@2x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_GoBack@2x.png"; sourceTree = "<group>"; };
-		BC1E6C526A243C906989AD3CFC8782EA /* ZLSuperClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLSuperClass.release.xcconfig; sourceTree = "<group>"; };
+		B8692A4D452D5FEA5A288AFE36AFEBA0 /* ZLScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLScrollView.h; path = ZLSuperClass/Classes/ScrollView/ZLScrollView.h; sourceTree = "<group>"; };
 		BD96442205FCDEBB1417F852109AEE99 /* ZLAppearanceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLAppearanceManager.h; path = ZLNavigationBar/Classes/ZLAppearanceManager.h; sourceTree = "<group>"; };
 		BE8801631A136EDC9DD3E62D85B7295B /* ZLNavigationBar_search@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_search@3x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar_search@3x.png"; sourceTree = "<group>"; };
-		BF10B4A6797ED03C48ED7C37B52B4043 /* ZLScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLScrollView.h; path = ZLSuperClass/Classes/ScrollView/ZLScrollView.h; sourceTree = "<group>"; };
-		C5F373D84D8F0A3AAEA8B2D7F6DAE789 /* ZLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLTextView.m; path = ZLSuperClass/Classes/TextView/ZLTextView.m; sourceTree = "<group>"; };
 		C61CCA15B954AF25C31D3EA257DD2840 /* ZLNavigationSearchBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationSearchBox.h; path = ZLNavigationBar/Classes/ZLNavigationSearchBox.h; sourceTree = "<group>"; };
+		C6ECF3FD06EA656C0D460A71AA7F15BF /* ZLCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLCollectionView.m; path = ZLSuperClass/Classes/CollectionView/ZLCollectionView.m; sourceTree = "<group>"; };
 		C75640AD3FF0AD2B7754B2DE5B3734E3 /* Pods-ZLSuperClass_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLSuperClass_Example-dummy.m"; sourceTree = "<group>"; };
 		CBE14167984FD45120465032A7441764 /* Pods_ZLSuperClass_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZLSuperClass_Tests.framework; path = "Pods-ZLSuperClass_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE89A101B79BF05FC82A199BDDF3264E /* ZLSuperClass-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLSuperClass-prefix.pch"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2E596B1417B21F6426480AA754678D9 /* ZLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLButton.h; path = ZLSuperClass/Classes/Button/ZLButton.h; sourceTree = "<group>"; };
+		D8B4C8CF75C96678EB1EA2F2A7E39A8A /* ZLNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLNavigationController.m; path = ZLSuperClass/Classes/Nav/ZLNavigationController.m; sourceTree = "<group>"; };
 		DD9E6667A8E1E60529677307A84C8909 /* Pods-ZLSuperClass_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLSuperClass_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DF05227467482CC149E0E2764536433C /* ZLNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLNavigationBar.framework; path = ZLNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF6BF87E0B5E7BD9B6B562793556743F /* Pods-ZLSuperClass_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLSuperClass_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E22AD6CD65A0BA3AF0A67F1FA3268090 /* ZLTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLTableView.m; path = ZLSuperClass/Classes/TableView/ZLTableView.m; sourceTree = "<group>"; };
+		E2C9289AAFA2179967185EEAB928FA72 /* UIImage+ZLLoadPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZLLoadPath.m"; path = "ZLSuperClass/Classes/LoadImageFromPath/UIImage+ZLLoadPath.m"; sourceTree = "<group>"; };
+		E39BBB50E087EC0A033A3501CB098B1F /* ZLCountdownManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLCountdownManager.m; path = ZLSuperClass/Classes/Countdown/ZLCountdownManager.m; sourceTree = "<group>"; };
 		E3F587FE29285491E1004E1F1C6AEAE3 /* ZLNavigationTransparencyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationTransparencyManager.h; path = ZLNavigationBar/Classes/ZLNavigationTransparencyManager.h; sourceTree = "<group>"; };
-		E8DB12D45E82F3465F04183C16EC2379 /* ZLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLButton.m; path = ZLSuperClass/Classes/Button/ZLButton.m; sourceTree = "<group>"; };
+		E8A30099106F63E62F5A0E490DB53C8E /* ZLNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationController.h; path = ZLSuperClass/Classes/Nav/ZLNavigationController.h; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EB3C032CF265E7D0299ACE81FC985CBA /* ZLNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationController.h; path = ZLSuperClass/Classes/Nav/ZLNavigationController.h; sourceTree = "<group>"; };
-		EB69B60F74C6D26A96DF59FEB4C17509 /* ZLCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLCollectionView.m; path = ZLSuperClass/Classes/CollectionView/ZLCollectionView.m; sourceTree = "<group>"; };
+		EAE94A3B7AE1ECCBE6E86784EDA99457 /* ZLMessageTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLMessageTextView.h; path = ZLSuperClass/Classes/MessageTextView/ZLMessageTextView.h; sourceTree = "<group>"; };
 		ED41E85D2EAAC04E41F4F0D9A9EC2F7B /* ZLNavigationBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLNavigationBar-umbrella.h"; sourceTree = "<group>"; };
 		EE006715D45B874EED58025118319185 /* ZLNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationBar.h; path = ZLNavigationBar/Classes/ZLNavigationBar.h; sourceTree = "<group>"; };
-		EFC241FB9B1738DD3092C23EB0826263 /* ZLTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLTableView.m; path = ZLSuperClass/Classes/TableView/ZLTableView.m; sourceTree = "<group>"; };
 		F191442A0DD037A3DD70742F0B5B2528 /* Pods_ZLSuperClass_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZLSuperClass_Example.framework; path = "Pods-ZLSuperClass_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F198E159B21F06EF586AF8633DA233CB /* ZLCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLCollectionView.h; path = ZLSuperClass/Classes/CollectionView/ZLCollectionView.h; sourceTree = "<group>"; };
+		F697D17B248AAF285EDEC908CAD8531D /* ZLTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLTextField.h; path = ZLSuperClass/Classes/TextField/ZLTextField.h; sourceTree = "<group>"; };
 		F6E14D533E408A43B27A0DA1E3316B41 /* Pods-ZLSuperClass_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLSuperClass_Example-Info.plist"; sourceTree = "<group>"; };
-		F80DF51E0C046A3987D3689BABEFF99E /* ZLCountdownManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLCountdownManager.m; path = ZLSuperClass/Classes/Countdown/ZLCountdownManager.m; sourceTree = "<group>"; };
+		F708AF85B8A700CC00132FE53317D59A /* ZLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLTextView.h; path = ZLSuperClass/Classes/TextView/ZLTextView.h; sourceTree = "<group>"; };
+		F907320D32B51B96C019FAA8955ECEF0 /* ZLTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLTextField.m; path = ZLSuperClass/Classes/TextField/ZLTextField.m; sourceTree = "<group>"; };
 		FA8D8F3360C5B0B4AF41EDF2731F759C /* ZLNavigationBarPrivateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationBarPrivateHeader.h; path = ZLNavigationBar/Classes/ZLNavigationBarPrivateHeader.h; sourceTree = "<group>"; };
-		FAAB8CDCB84E0DFB522712AAD86608B7 /* ZLSuperClass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLSuperClass-dummy.m"; sourceTree = "<group>"; };
 		FF7B0A9E0CCA8EB1FDCBA5A7ADC57C3D /* ZLNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLNavigationBar.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07D90B78FA7101ABB9DEAFB36C8C8CD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91C40F75E51D26DE00C580BF42CB57DF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53F50D65EF0F233A957F5E6B79A410C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7CFBE11D3392D69904983740187AD4A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +217,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		96E6378949242B6BCF2D50BF501FC890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A316B609F1712B5DCE483F438AADBC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77427E34255C512102E70680303EC026 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A57428293D44A5E68C57C5311BE70895 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,20 +243,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EB959D2578D2793DC7ABDDF39B20080 /* LoadImageFromPath */ = {
+		032A0DF049E955978829B0A2CC0D5463 /* TextView */ = {
 			isa = PBXGroup;
 			children = (
-				2BF570C83FBDFD07BC116B2AF02D5DDB /* UIImage+ZLLoadPath.h */,
-				2D81744E4869280F8902467F810FED4A /* UIImage+ZLLoadPath.m */,
-			);
-			name = LoadImageFromPath;
-			sourceTree = "<group>";
-		};
-		0FAD3043622E75D78CA5BDA375B18197 /* TextView */ = {
-			isa = PBXGroup;
-			children = (
-				1FAD9AE902BDD624793707867A8FB32E /* ZLTextView.h */,
-				C5F373D84D8F0A3AAEA8B2D7F6DAE789 /* ZLTextView.m */,
+				F708AF85B8A700CC00132FE53317D59A /* ZLTextView.h */,
+				2BF5FEF64B8467DACC002EC7FDBB434B /* ZLTextView.m */,
 			);
 			name = TextView;
 			sourceTree = "<group>";
@@ -265,13 +260,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		25B9E66FD025E6E29A8795E153F04EBC /* ScrollView */ = {
+		2865F98F1D990383585D1CFEBCB6D9D5 /* LoadImageFromPath */ = {
 			isa = PBXGroup;
 			children = (
-				BF10B4A6797ED03C48ED7C37B52B4043 /* ZLScrollView.h */,
-				4EC8D1A04BB976E3AA2E6CEAC95B420B /* ZLScrollView.m */,
+				8D0B0B1A2AE83B6C6180FE29294FB015 /* UIImage+ZLLoadPath.h */,
+				E2C9289AAFA2179967185EEAB928FA72 /* UIImage+ZLLoadPath.m */,
 			);
-			name = ScrollView;
+			name = LoadImageFromPath;
+			sourceTree = "<group>";
+		};
+		2F3C1C43ECF8EDACE686B74A894EE964 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				F697D17B248AAF285EDEC908CAD8531D /* ZLTextField.h */,
+				F907320D32B51B96C019FAA8955ECEF0 /* ZLTextField.m */,
+			);
+			name = TextField;
+			sourceTree = "<group>";
+		};
+		335E931C5D043DF95C7A9B55230A69E0 /* MessageTextView */ = {
+			isa = PBXGroup;
+			children = (
+				EAE94A3B7AE1ECCBE6E86784EDA99457 /* ZLMessageTextView.h */,
+				1B5A5D0D881405F56EE81E37BA31A421 /* ZLMessageTextView.m */,
+			);
+			name = MessageTextView;
 			sourceTree = "<group>";
 		};
 		35986CAC8CEF8C184C688EFB614B4AAC /* Pods-ZLSuperClass_Example */ = {
@@ -315,15 +328,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		511FDA1B11585F7CE6C3026FF08FC8BC /* Nav */ = {
-			isa = PBXGroup;
-			children = (
-				EB3C032CF265E7D0299ACE81FC985CBA /* ZLNavigationController.h */,
-				8811E83253CF50DB73FF0A5682D91CDA /* ZLNavigationController.m */,
-			);
-			name = Nav;
-			sourceTree = "<group>";
-		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,44 +337,65 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7153F149BBCFAD6ED375A8DEF03B48CE /* ZLSuperClass */ = {
+		59E96B29983F84C2380C97A8DB324B39 /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				6C31E3CADE9FB51C490E4DBC306546E9 /* ZLSuperClassHeader.h */,
-				B2CE8426355F1CCDDF5AC3AA2DC63A0B /* Button */,
-				E7F3E78DDA4CBF6AEFA7564BC70C64A8 /* CollectionView */,
-				C7C1898B6F6F3D2A4B76D03C09BA6B64 /* Countdown */,
-				0EB959D2578D2793DC7ABDDF39B20080 /* LoadImageFromPath */,
-				511FDA1B11585F7CE6C3026FF08FC8BC /* Nav */,
-				85CCE03B9BE907FFBD0E2007B6276C73 /* Pod */,
-				25B9E66FD025E6E29A8795E153F04EBC /* ScrollView */,
-				A6B88A42F2A0EBEFB4F811D99FB5752D /* Support Files */,
-				7D31170620C70714B52CB4D4AA2CC732 /* TableView */,
-				CCA6F9605545B37967ECC5B5572570A8 /* TextField */,
-				0FAD3043622E75D78CA5BDA375B18197 /* TextView */,
-				9547850B7FEC7F74C91830D1BD12627B /* ViewController */,
+				D2E596B1417B21F6426480AA754678D9 /* ZLButton.h */,
+				A51A1E41807375848BB8A4C6BCD0D8D3 /* ZLButton.m */,
 			);
-			name = ZLSuperClass;
-			path = ../..;
+			name = Button;
 			sourceTree = "<group>";
 		};
-		7D31170620C70714B52CB4D4AA2CC732 /* TableView */ = {
+		5B419AD84F817A5BD69503542FF4F1FA /* Countdown */ = {
 			isa = PBXGroup;
 			children = (
-				0F5BD5AAA17FC22C498A7B8E8DB0F9CF /* ZLTableView.h */,
-				EFC241FB9B1738DD3092C23EB0826263 /* ZLTableView.m */,
+				488A91B102E5F8A0499E4A43C4D5D05E /* ZLCountdownManager.h */,
+				E39BBB50E087EC0A033A3501CB098B1F /* ZLCountdownManager.m */,
+			);
+			name = Countdown;
+			sourceTree = "<group>";
+		};
+		7D67827D54D24D3776C8F99C097052CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96930922764205503478E7ACBAC0D9E1 /* ZLSuperClass.modulemap */,
+				6C569B4B4D630320DC17D2525F9AC33E /* ZLSuperClass-dummy.m */,
+				06CAF6461AA9A1474E451F8501EBDE74 /* ZLSuperClass-Info.plist */,
+				3F6A1095D982CD41C342E5BCB81B2D0A /* ZLSuperClass-prefix.pch */,
+				39769C4DD70461F1F1EB9319258A4C06 /* ZLSuperClass-umbrella.h */,
+				A968E9644678F929865060E080229019 /* ZLSuperClass.debug.xcconfig */,
+				5A0E8C6B9F7C27A13C0E483B1031657A /* ZLSuperClass.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZLSuperClass";
+			sourceTree = "<group>";
+		};
+		7FC4864B07B1D93130155CB814F8B640 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82DC39FF973CC6201BCD2C91361CAB67 /* LICENSE */,
+				4F6BADE56D76FAD39BF108FF7473588D /* README.md */,
+				77C8D7E2954B84DBF92DA6D8CD382A19 /* ZLSuperClass.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9012300BC2A9CFE3159359FE1F994FCC /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				033ECB9CAEDBF6EBF485751D0AACDF27 /* ZLTableView.h */,
+				E22AD6CD65A0BA3AF0A67F1FA3268090 /* ZLTableView.m */,
 			);
 			name = TableView;
 			sourceTree = "<group>";
 		};
-		85CCE03B9BE907FFBD0E2007B6276C73 /* Pod */ = {
+		923B21258E0A14E7A1BFC31B7D537382 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				4D51BD094F09CB436D5576901D82059C /* LICENSE */,
-				879305F5B9DB6A446C71B42AF25A98D5 /* README.md */,
-				54138BB8386CC52B329C73A504FC26A4 /* ZLSuperClass.podspec */,
+				889A110CD0D3C3F18658773AC6973F66 /* ZLCollectionView.h */,
+				C6ECF3FD06EA656C0D460A71AA7F15BF /* ZLCollectionView.m */,
 			);
-			name = Pod;
+			name = CollectionView;
 			sourceTree = "<group>";
 		};
 		92E00E2598C2797951FA59E66216D236 /* ZLNavigationBar */ = {
@@ -400,6 +425,15 @@
 			path = ZLNavigationBar;
 			sourceTree = "<group>";
 		};
+		92E501FBDC77A43E0FB78961E3E6DD62 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				E8A30099106F63E62F5A0E490DB53C8E /* ZLNavigationController.h */,
+				D8B4C8CF75C96678EB1EA2F2A7E39A8A /* ZLNavigationController.m */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
 		93507823B583CAB59D8DFE5D26D057FF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,70 +450,19 @@
 			path = "../Target Support Files/ZLNavigationBar";
 			sourceTree = "<group>";
 		};
-		9547850B7FEC7F74C91830D1BD12627B /* ViewController */ = {
+		A37279496E1EACDA4818D9D801EF0712 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AEB8FCE7EEBAD8672E70D903F6729A39 /* ZLSuperViewController.h */,
-				52C8EF3AC639C92B8E7C72E8344AFFD7 /* ZLSuperViewController.m */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
-		A6B88A42F2A0EBEFB4F811D99FB5752D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5455077779E5A9B7E378F903307F032C /* ZLSuperClass.modulemap */,
-				FAAB8CDCB84E0DFB522712AAD86608B7 /* ZLSuperClass-dummy.m */,
-				4EF5A99AE3E30C3898377F775AFC4447 /* ZLSuperClass-Info.plist */,
-				CE89A101B79BF05FC82A199BDDF3264E /* ZLSuperClass-prefix.pch */,
-				3AA9B729AFB931F74C08EB38C2C52D23 /* ZLSuperClass-umbrella.h */,
-				1EAFEA49516E595DB5DC4FC3106EEB64 /* ZLSuperClass.debug.xcconfig */,
-				BC1E6C526A243C906989AD3CFC8782EA /* ZLSuperClass.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZLSuperClass";
-			sourceTree = "<group>";
-		};
-		B2CE8426355F1CCDDF5AC3AA2DC63A0B /* Button */ = {
-			isa = PBXGroup;
-			children = (
-				13B3AC5F081BFC8EF074D944FE19A21C /* ZLButton.h */,
-				E8DB12D45E82F3465F04183C16EC2379 /* ZLButton.m */,
-			);
-			name = Button;
-			sourceTree = "<group>";
-		};
-		C7C1898B6F6F3D2A4B76D03C09BA6B64 /* Countdown */ = {
-			isa = PBXGroup;
-			children = (
-				263CE875BEFC1286B80B58BCA822E54A /* ZLCountdownManager.h */,
-				F80DF51E0C046A3987D3689BABEFF99E /* ZLCountdownManager.m */,
-			);
-			name = Countdown;
-			sourceTree = "<group>";
-		};
-		CB06EFACEB95C5849FBAC39FB3C69466 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7153F149BBCFAD6ED375A8DEF03B48CE /* ZLSuperClass */,
+				DBD34D3B5A03FDA36672B49BECB3B20D /* ZLSuperClass */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CCA6F9605545B37967ECC5B5572570A8 /* TextField */ = {
-			isa = PBXGroup;
-			children = (
-				97A6751EBB8C1B87EFF589FD0D733AE1 /* ZLTextField.h */,
-				29372B80A3B3B15564B4E527E7AFCE57 /* ZLTextField.m */,
-			);
-			name = TextField;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CB06EFACEB95C5849FBAC39FB3C69466 /* Development Pods */,
+				A37279496E1EACDA4818D9D801EF0712 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				4699DB6D5C01C6A221167140D2F3BB40 /* Pods */,
 				FE3941D7583FB3AAE610565D2F083246 /* Products */,
@@ -487,13 +470,44 @@
 			);
 			sourceTree = "<group>";
 		};
-		E7F3E78DDA4CBF6AEFA7564BC70C64A8 /* CollectionView */ = {
+		DBD34D3B5A03FDA36672B49BECB3B20D /* ZLSuperClass */ = {
 			isa = PBXGroup;
 			children = (
-				F198E159B21F06EF586AF8633DA233CB /* ZLCollectionView.h */,
-				EB69B60F74C6D26A96DF59FEB4C17509 /* ZLCollectionView.m */,
+				AFC8A99FCADD6009584CD228F2400763 /* ZLSuperClassHeader.h */,
+				59E96B29983F84C2380C97A8DB324B39 /* Button */,
+				923B21258E0A14E7A1BFC31B7D537382 /* CollectionView */,
+				5B419AD84F817A5BD69503542FF4F1FA /* Countdown */,
+				2865F98F1D990383585D1CFEBCB6D9D5 /* LoadImageFromPath */,
+				335E931C5D043DF95C7A9B55230A69E0 /* MessageTextView */,
+				92E501FBDC77A43E0FB78961E3E6DD62 /* Nav */,
+				7FC4864B07B1D93130155CB814F8B640 /* Pod */,
+				EB029A787F601A8F823078DE0348211B /* ScrollView */,
+				7D67827D54D24D3776C8F99C097052CC /* Support Files */,
+				9012300BC2A9CFE3159359FE1F994FCC /* TableView */,
+				2F3C1C43ECF8EDACE686B74A894EE964 /* TextField */,
+				032A0DF049E955978829B0A2CC0D5463 /* TextView */,
+				EC3E36EC59FAA827516F9462C7D44155 /* ViewController */,
 			);
-			name = CollectionView;
+			name = ZLSuperClass;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB029A787F601A8F823078DE0348211B /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B8692A4D452D5FEA5A288AFE36AFEBA0 /* ZLScrollView.h */,
+				01BAF69837352FF4FC94D989E8090C94 /* ZLScrollView.m */,
+			);
+			name = ScrollView;
+			sourceTree = "<group>";
+		};
+		EC3E36EC59FAA827516F9462C7D44155 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CB27AAFCE895F5F88720B69284559D7 /* ZLSuperViewController.h */,
+				2590BD58E4195535301AF3193FD30A29 /* ZLSuperViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 		F03F428D43657040837C8A5881AAED37 /* Resources */ = {
@@ -541,6 +555,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC30B61593AAC8EFEF56F175442B98D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C9E08642F52A5742B35A93455C07F3 /* UIImage+ZLLoadPath.h in Headers */,
+				1BE58A5853C502B135C7FBA8CA5D0DE1 /* ZLButton.h in Headers */,
+				4CDCA555639E74DC3905670BC989D411 /* ZLCollectionView.h in Headers */,
+				27E607DF54896A66FA4AEBB8752C8759 /* ZLCountdownManager.h in Headers */,
+				6062E70E7CE7FCAF02DF3DFDC2C2CE17 /* ZLMessageTextView.h in Headers */,
+				E990001F9928473CE03E85DB510DD155 /* ZLNavigationController.h in Headers */,
+				AA2D709D89839326E1B61D320FD1A763 /* ZLScrollView.h in Headers */,
+				E9D4D433737FC41F33843B34B4F40481 /* ZLSuperClass-umbrella.h in Headers */,
+				8AA19B5AB36981719490C2049DC04695 /* ZLSuperClassHeader.h in Headers */,
+				40BAB0CDB5270C4D5ACFCBCE6B0D025A /* ZLSuperViewController.h in Headers */,
+				5C60B4364989D0DDB1B8266E71C4BA74 /* ZLTableView.h in Headers */,
+				2F337281476793DE255524976688D37C /* ZLTextField.h in Headers */,
+				C350252C2053641A250968471F1821BA /* ZLTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B328024EB60C029A83F1D17BABE93A02 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -566,35 +600,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1E7315786238B2C6FA9799D21A91A23 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91F3442790F4E0C9E11EE74E1BD4EAC6 /* UIImage+ZLLoadPath.h in Headers */,
-				33CC8581C21780F810DC1D36E1364957 /* ZLButton.h in Headers */,
-				9BCBD01F47F50993281AFDCD26792374 /* ZLCollectionView.h in Headers */,
-				A75DA53CB404108E59637547F3E877BC /* ZLCountdownManager.h in Headers */,
-				DE92F6518256B9BA5DDC49736D2D6AED /* ZLNavigationController.h in Headers */,
-				5A7E78BA68AA42FA49CFE5BC75615991 /* ZLScrollView.h in Headers */,
-				B0A062B4FDCEA104340A544E8756F8BF /* ZLSuperClass-umbrella.h in Headers */,
-				354B3337C52C87D220AF248816268009 /* ZLSuperClassHeader.h in Headers */,
-				59E9BC122F6488DAB884CE5E3D37EB08 /* ZLSuperViewController.h in Headers */,
-				7BA72C64FD47BEBBB8DBAB6C2644DFC6 /* ZLTableView.h in Headers */,
-				43178970B26093955FC2BB1A777F29B6 /* ZLTextField.h in Headers */,
-				5284A12DC0459A48FF34821398C6FC0A /* ZLTextView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		189101C072DDEA7FEB1B8EAF31D4ECCA /* ZLNavigationBar-ZLNavigationBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0AE5ED18C95909277725788E7FC63E8 /* Build configuration list for PBXNativeTarget "ZLNavigationBar-ZLNavigationBar" */;
+			buildConfigurationList = FC7DDDADF945586D6BAADA21DAC630FB /* Build configuration list for PBXNativeTarget "ZLNavigationBar-ZLNavigationBar" */;
 			buildPhases = (
-				D55C11CFBE7B5A12AC4E53D26506B9CD /* Sources */,
-				53F50D65EF0F233A957F5E6B79A410C5 /* Frameworks */,
-				D73BEE0DA5C11A5F3C8C7476015A69FD /* Resources */,
+				3C4E3A119C0A2154BD752F532038E637 /* Sources */,
+				96E6378949242B6BCF2D50BF501FC890 /* Frameworks */,
+				3B0D6D3B12EBD5A6F7784C608BCF76DA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -607,17 +622,17 @@
 		};
 		3627E868BC3D235CCEB4449BC4EB0ED5 /* ZLSuperClass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9CEC1F468250A9E94DE1E0185A9E34B /* Build configuration list for PBXNativeTarget "ZLSuperClass" */;
+			buildConfigurationList = 64F8B243502EB5093396E0C10C164CFA /* Build configuration list for PBXNativeTarget "ZLSuperClass" */;
 			buildPhases = (
-				E1E7315786238B2C6FA9799D21A91A23 /* Headers */,
-				CBD5F7FDB717498F503EF38647BCD8B7 /* Sources */,
-				07D90B78FA7101ABB9DEAFB36C8C8CD9 /* Frameworks */,
-				732C2F3A637F925CF1834689238717E2 /* Resources */,
+				AC30B61593AAC8EFEF56F175442B98D2 /* Headers */,
+				87DB6519F0612FCB602AAEEF777EC49B /* Sources */,
+				A316B609F1712B5DCE483F438AADBC27 /* Frameworks */,
+				F7E32D03C1A536F5F692758C1EA6171E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				59F0B25BF6A28DD22E0359668D325918 /* PBXTargetDependency */,
+				A5D4D0BBC1ABECB4C1BBA43BB76CA23D /* PBXTargetDependency */,
 			);
 			name = ZLSuperClass;
 			productName = ZLSuperClass;
@@ -636,7 +651,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C7DDC697F014B34C134353289327DB65 /* PBXTargetDependency */,
+				499203010492866DF91FA6B29CB42F00 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZLSuperClass_Tests";
 			productName = "Pods-ZLSuperClass_Tests";
@@ -655,7 +670,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F9D862973A321F7542DC7A78E14B4CA7 /* PBXTargetDependency */,
+				D0952A331AC4C2F0748591B0A1C214E6 /* PBXTargetDependency */,
 			);
 			name = ZLNavigationBar;
 			productName = ZLNavigationBar;
@@ -674,8 +689,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				6E3D9637DDC0143EC79969C4DCAFEF20 /* PBXTargetDependency */,
-				217458B91F68FA63A75CA1149744C7A4 /* PBXTargetDependency */,
+				CDAE151ABF11584CB8A8196C5252E8E3 /* PBXTargetDependency */,
+				CB661FB45D85A5F5C17769350FC2C2B0 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZLSuperClass_Example";
 			productName = "Pods-ZLSuperClass_Example";
@@ -721,10 +736,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		732C2F3A637F925CF1834689238717E2 /* Resources */ = {
+		3B0D6D3B12EBD5A6F7784C608BCF76DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9CA66BAE4E85CFC5A5AAE4BBB77C61 /* ZLNavigationBar_GoBack@2x.png in Resources */,
+				BFEDD1A38134E78D8C9361C05DAE0868 /* ZLNavigationBar_GoBack@3x.png in Resources */,
+				746E3FF0070706246A602B981FE63430 /* ZLNavigationBar_GoBack_White@2x.png in Resources */,
+				CF73414E5D47FECDB79686819F8916A4 /* ZLNavigationBar_GoBack_White@3x.png in Resources */,
+				ABFD794FAFEF5EDE22B0714EF333C5F6 /* ZLNavigationBar_search@2x.png in Resources */,
+				7C56047765B22D730629770B54C28BC9 /* ZLNavigationBar_search@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,52 +764,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D73BEE0DA5C11A5F3C8C7476015A69FD /* Resources */ = {
+		F7E32D03C1A536F5F692758C1EA6171E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				094AFA415D2F81D6277921285E715C7A /* ZLNavigationBar_GoBack@2x.png in Resources */,
-				C3EC0831DE21444D17CE5A95EA85E802 /* ZLNavigationBar_GoBack@3x.png in Resources */,
-				BEE619D514355D30D5366FCF7C200B28 /* ZLNavigationBar_GoBack_White@2x.png in Resources */,
-				E1396882D2338896F9A8BC7E3C020B59 /* ZLNavigationBar_GoBack_White@3x.png in Resources */,
-				19D4EF0E9D7CF53CE9C6BE9D4A44E388 /* ZLNavigationBar_search@2x.png in Resources */,
-				DAFAE46D034CC4C4427C3346F1C4AE08 /* ZLNavigationBar_search@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3C4E3A119C0A2154BD752F532038E637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DB6519F0612FCB602AAEEF777EC49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DCA49E53972A81DA912E038F196AAB /* UIImage+ZLLoadPath.m in Sources */,
+				544F3A8B88C018DF04502708187F6CAB /* ZLButton.m in Sources */,
+				658B6FE27A6B24DBB89797CF8BB67407 /* ZLCollectionView.m in Sources */,
+				A826BE9E51CA3E2A153E95E323CA8B6E /* ZLCountdownManager.m in Sources */,
+				E49D084B936BAB589A0103FDA2033D7F /* ZLMessageTextView.m in Sources */,
+				B22DCE6E51DFA978294E094DF9540B0B /* ZLNavigationController.m in Sources */,
+				35AED58B6A21F81CE41668C0D70D8DE6 /* ZLScrollView.m in Sources */,
+				9739A0D3E7FC7BE53B4AB638B9883FF2 /* ZLSuperClass-dummy.m in Sources */,
+				72AFD69A4925CCD01A13FDF002D084AA /* ZLSuperViewController.m in Sources */,
+				48DDF1F61E4B3774F9171E992E7C1516 /* ZLTableView.m in Sources */,
+				D310FF3125F6081E2D0EAAB75BEA407B /* ZLTextField.m in Sources */,
+				6DC76E34712058BD3F1BDF46BEFFE339 /* ZLTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C507B7941370B6AE0101C3389D75ECA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0A11CFF80817F497DD48A3423FDE880D /* Pods-ZLSuperClass_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBD5F7FDB717498F503EF38647BCD8B7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51DFDD937DDBBF726210928B04C4674B /* UIImage+ZLLoadPath.m in Sources */,
-				58833D76C4051B66907D03CEB69C0F5F /* ZLButton.m in Sources */,
-				A833250AEAB584ABB4B2DFA213FFC43C /* ZLCollectionView.m in Sources */,
-				C779A9BC7A3FD17A9327C4D0DE32AB98 /* ZLCountdownManager.m in Sources */,
-				EF91B114D8F873A23F20E61241CCDD33 /* ZLNavigationController.m in Sources */,
-				56F652A3A6BF93C35377270E2299235E /* ZLScrollView.m in Sources */,
-				D57D87899A2490B4B921690DC42B4A14 /* ZLSuperClass-dummy.m in Sources */,
-				0A334DD07E072F609753184B85C35D2F /* ZLSuperViewController.m in Sources */,
-				50433B37C4853546D5763EA1F02CA6AA /* ZLTableView.m in Sources */,
-				3BF01E333D5F949146611F7C8C3A924A /* ZLTextField.m in Sources */,
-				8B9A216E8FDB701FD4D949319CF22498 /* ZLTextView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D55C11CFBE7B5A12AC4E53D26506B9CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -819,39 +835,86 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		217458B91F68FA63A75CA1149744C7A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZLSuperClass;
-			target = 3627E868BC3D235CCEB4449BC4EB0ED5 /* ZLSuperClass */;
-			targetProxy = 3B86330F7C8670158F41266B0D2A8846 /* PBXContainerItemProxy */;
-		};
-		59F0B25BF6A28DD22E0359668D325918 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZLNavigationBar;
-			target = A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */;
-			targetProxy = C49CD9FD593B570B606F3124E5C73321 /* PBXContainerItemProxy */;
-		};
-		6E3D9637DDC0143EC79969C4DCAFEF20 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZLNavigationBar;
-			target = A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */;
-			targetProxy = 891871B2D8361BFF9329E7C4301DA1CE /* PBXContainerItemProxy */;
-		};
-		C7DDC697F014B34C134353289327DB65 /* PBXTargetDependency */ = {
+		499203010492866DF91FA6B29CB42F00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZLSuperClass_Example";
 			target = EFDA851A73744CC83900E41EAAD1E3D4 /* Pods-ZLSuperClass_Example */;
-			targetProxy = D76B91D6C68F5CFB0661182376CA80D6 /* PBXContainerItemProxy */;
+			targetProxy = 6479D1D4C6A8C923A0FF731E1C826A41 /* PBXContainerItemProxy */;
 		};
-		F9D862973A321F7542DC7A78E14B4CA7 /* PBXTargetDependency */ = {
+		A5D4D0BBC1ABECB4C1BBA43BB76CA23D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLNavigationBar;
+			target = A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */;
+			targetProxy = 738FA2E71D382E75B476CB0CAFB53848 /* PBXContainerItemProxy */;
+		};
+		CB661FB45D85A5F5C17769350FC2C2B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLSuperClass;
+			target = 3627E868BC3D235CCEB4449BC4EB0ED5 /* ZLSuperClass */;
+			targetProxy = 248A2C782F05FA35A4FE6946CC84BAF6 /* PBXContainerItemProxy */;
+		};
+		CDAE151ABF11584CB8A8196C5252E8E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLNavigationBar;
+			target = A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */;
+			targetProxy = D0EACFFF74199A7C842C1A19B7BA7AF2 /* PBXContainerItemProxy */;
+		};
+		D0952A331AC4C2F0748591B0A1C214E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ZLNavigationBar-ZLNavigationBar";
 			target = 189101C072DDEA7FEB1B8EAF31D4ECCA /* ZLNavigationBar-ZLNavigationBar */;
-			targetProxy = 28853195F455A71899F961117994F316 /* PBXContainerItemProxy */;
+			targetProxy = 4AF0B6ADBDDB176F0E3AC22A6B8D12EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		08FEE345A31AC57EEBC50B87ABA4DE3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1BBAAC13790B606574582F05EE21B4 /* ZLNavigationBar.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLNavigationBar";
+				IBSC_MODULE = ZLNavigationBar;
+				INFOPLIST_FILE = "Target Support Files/ZLNavigationBar/ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZLNavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		12C8117F27B951CB6730F3173888C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A968E9644678F929865060E080229019 /* ZLSuperClass.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLSuperClass/ZLSuperClass-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLSuperClass/ZLSuperClass-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ZLSuperClass/ZLSuperClass.modulemap";
+				PRODUCT_MODULE_NAME = ZLSuperClass;
+				PRODUCT_NAME = ZLSuperClass;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		15A255B9ABCDDA7A456522959A716B9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5880245E38C1BC7857E55F6F5B1D4C70 /* Pods-ZLSuperClass_Example.debug.xcconfig */;
@@ -982,39 +1045,7 @@
 			};
 			name = Debug;
 		};
-		359AAD213C9AAAB7B0CCEBE4C5FB0D69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC1E6C526A243C906989AD3CFC8782EA /* ZLSuperClass.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZLSuperClass/ZLSuperClass-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZLSuperClass/ZLSuperClass-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/ZLSuperClass/ZLSuperClass.modulemap";
-				PRODUCT_MODULE_NAME = ZLSuperClass;
-				PRODUCT_NAME = ZLSuperClass;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3C19C2A47F9086CB8B39D020EBED660F /* Debug */ = {
+		3FF7BC14FCA117DB05A03291DF5FF1FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF7B0A9E0CCA8EB1FDCBA5A7ADC57C3D /* ZLNavigationBar.debug.xcconfig */;
 			buildSettings = {
@@ -1060,9 +1091,9 @@
 			};
 			name = Debug;
 		};
-		6B49A42B0BDD95109D7AF0EC8003AB5B /* Debug */ = {
+		54474880F08E8B813A951C8BF9A03138 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EAFEA49516E595DB5DC4FC3106EEB64 /* ZLSuperClass.debug.xcconfig */;
+			baseConfigurationReference = 5A0E8C6B9F7C27A13C0E483B1031657A /* ZLSuperClass.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1086,24 +1117,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		80E14B0F8D0B79E7B0186E75D22BF300 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E1BBAAC13790B606574582F05EE21B4 /* ZLNavigationBar.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLNavigationBar";
-				IBSC_MODULE = ZLNavigationBar;
-				INFOPLIST_FILE = "Target Support Files/ZLNavigationBar/ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ZLNavigationBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1296,11 +1312,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9CEC1F468250A9E94DE1E0185A9E34B /* Build configuration list for PBXNativeTarget "ZLSuperClass" */ = {
+		64F8B243502EB5093396E0C10C164CFA /* Build configuration list for PBXNativeTarget "ZLSuperClass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B49A42B0BDD95109D7AF0EC8003AB5B /* Debug */,
-				359AAD213C9AAAB7B0CCEBE4C5FB0D69 /* Release */,
+				12C8117F27B951CB6730F3173888C4F1 /* Debug */,
+				54474880F08E8B813A951C8BF9A03138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1314,11 +1330,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0AE5ED18C95909277725788E7FC63E8 /* Build configuration list for PBXNativeTarget "ZLNavigationBar-ZLNavigationBar" */ = {
+		FC7DDDADF945586D6BAADA21DAC630FB /* Build configuration list for PBXNativeTarget "ZLNavigationBar-ZLNavigationBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C19C2A47F9086CB8B39D020EBED660F /* Debug */,
-				80E14B0F8D0B79E7B0186E75D22BF300 /* Release */,
+				3FF7BC14FCA117DB05A03291DF5FF1FA /* Debug */,
+				08FEE345A31AC57EEBC50B87ABA4DE3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

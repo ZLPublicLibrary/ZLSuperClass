@@ -1,6 +1,6 @@
 {
   "name": "ZLSuperClass",
-  "version": "4.1.4",
+  "version": "4.1.5",
   "summary": "自定义父类",
   "description": "'将实用的功能抽出一个抽象类，后续继承自这些类来提高效率'",
   "homepage": "https://github.com/ZLPublicLibrary/ZLSuperClass",
@@ -63,6 +63,10 @@
     {
       "name": "LoadImageFromPath",
       "source_files": "ZLSuperClass/Classes/LoadImageFromPath/**/*"
+    },
+    {
+      "name": "MessageTextView",
+      "source_files": "ZLSuperClass/Classes/MessageTextView/**/*"
     }
   ]
 }
